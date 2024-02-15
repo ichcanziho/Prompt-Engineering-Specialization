@@ -434,11 +434,119 @@ Now, give me tips to improve my current salary, given that I have more experienc
 ### What is a Prompt?
 [<- Return to INDEX 3](#index-3)
 
+En el contexto de los modelos de lenguaje grandes y la interacción con ChatGPT, el término "indicación" o "prompt" adquiere múltiples dimensiones y se revela como un concepto profundamente versátil y poderoso en la ingeniería de interacción. Aquí se sintetizan los aspectos clave de cómo las indicaciones pueden ser comprendidas y empleadas eficazmente:
+
+#### Naturaleza Multifacética de las Indicaciones:
+
+![img.png](ims%2FC3%2Fimg.png)
+
+1. **Llamado a la Acción:** Una indicación es esencialmente un incentivo para que el modelo lingüístico grande genere una respuesta. Actúa como un estímulo que desencadena la producción de texto, orientando al modelo sobre qué tipo de contenido producir o qué pregunta contestar.
+   
+2. **Temporalidad:** La indicación puede tener un aspecto temporal, instando a una respuesta inmediata o estableciendo un marco para futuras interacciones. Esto introduce una noción de continuidad y memoria dentro de la secuencia de interacciones con el modelo.
+
+3. **Recordatorio:** Funciona como un recordatorio o una pauta para el modelo, ayudando a retener el contexto o las instrucciones específicas a lo largo de una conversación. Esto es crucial para mantener la coherencia en interacciones más extendidas o complejas.
+
+4. **Interacción Bidireccional y Recopilación de Información:** Además de instigar al modelo a generar respuestas, las indicaciones pueden facilitar la recopilación de información del usuario, permitiendo que el modelo solicite datos adicionales para enriquecer su comprensión y la calidad de sus respuestas.
+
+#### Estrategias para la Construcción de Indicaciones:
+![img_1.png](ims%2FC3%2Fimg_1.png)
+- **Considerar la Temporalidad:** Tener en cuenta cómo una indicación puede afectar no solo la respuesta inmediata, sino también las interacciones futuras, permite diseñar una secuencia lógica y coherente de intercambio de información.
+
+- **Precisión y Contexto:** Una indicación clara y bien contextualizada puede mejorar significativamente la precisión y relevancia de las respuestas del modelo. La precisión en la formulación de la indicación ayuda al modelo a generar respuestas más focalizadas y útiles.
+
+- **Uso de la Información Actualizada:** Proporcionar información actual o específica como parte de la indicación puede compensar las limitaciones de conocimiento del modelo, permitiendo que opere con datos más recientes o detallados que los contenidos en su entrenamiento original.
+
+#### Ejemplos Prácticos:
+![img_1.png](img_1.png)
+- Al pedir al modelo que mejore las preguntas formuladas por el usuario, se demostró cómo una indicación puede orientar al modelo para que no solo responda preguntas, sino también para proponer formulaciones alternativas que podrían ser más informativas o precisas.
+
+
+- La capacidad de recordar instrucciones previas y aplicarlas a preguntas futuras, como en el caso de mejorar continuamente las preguntas del usuario, muestra cómo las indicaciones establecen un marco interactivo continuo más allá de respuestas únicas.
+
+![img_2.png](ims%2FC3%2Fimg_2.png)
+
+![img_3.png](ims%2FC3%2Fimg_3.png)
+
+![img_4.png](ims%2FC3%2Fimg_4.png)
+
+- Proporcionando información nueva directamente al modelo, como las tasas de aceptación actualizadas de una universidad, ilustra cómo las indicaciones pueden servir para actualizar o ampliar la base de conocimiento del modelo, permitiéndole responder con base en información reciente.
+
+#### Conclusión:
+Las indicaciones no son meras preguntas; son herramientas de comunicación multifacéticas que habilitan, informan, y guían las interacciones con los modelos de lenguaje grandes. Entender y aprovechar las dimensiones de las indicaciones puede mejorar significativamente la eficacia, la precisión, y la riqueza de las interacciones con ChatGPT y modelos similares, facilitando un diálogo más enriquecedor y productivo.
+
 ### Intuition Behind Prompts
 [<- Return to INDEX 3](#index-3)
 
+La discusión sobre el impacto de las indicaciones (prompts) en la interacción con modelos de lenguaje grandes (como ChatGPT) revela un aspecto fundamental de la inteligencia artificial centrada en el procesamiento del lenguaje natural. Las indicaciones no son meras instrucciones o preguntas; son el mecanismo mediante el cual los usuarios pueden guiar, dar forma y contextualizar las respuestas generadas por estos avanzados sistemas de IA. Aquí, se ofrece una exploración intuitiva de cómo funcionan las indicaciones y cómo se pueden emplear eficazmente para aprovechar las capacidades de los modelos de lenguaje grandes.
+
+#### El Poder de los Patrones en las Indicaciones
+
+![img_5.png](ims%2FC3%2Fimg_5.png)
+
+Los modelos de lenguaje grandes, al estar entrenados en vastas cantidades de texto extraídas de Internet, aprenden a reconocer patrones de lenguaje y a predecir la siguiente palabra en una secuencia con base en el contexto proporcionado por las palabras anteriores. Este aprendizaje basado en patrones es lo que permite a los usuarios influir en las respuestas del modelo mediante el uso estratégico de indicaciones.
+
+#### Ejemplos de Patrones y su Influencia:
+
+![img_6.png](ims%2FC3%2Fimg_6.png)
+
+- **Patrones Clásicos**: Al utilizar frases o patrones bien establecidos (como "Mary had a little…"), el modelo tiende a seguir el patrón reconocido en sus respuestas, llevando a respuestas predecibles y coherentes.
+  
+- **Introducción de Nuevos Contextos**: Al cambiar elementos de una indicación conocida (por ejemplo, reemplazando "little" con "microscópico"), podemos guiar al modelo hacia respuestas creativas y no convencionales, explorando resultados más allá de los patrones estándar.
+
+#### Estrategias para el Diseño de Indicaciones
+
+1. **Especificidad vs. Generalidad**: La especificidad en las indicaciones conduce a respuestas más precisas y contextualizadas. La generalidad, por otro lado, puede resultar en respuestas más genéricas. Es esencial considerar el nivel de detalle deseado en la respuesta al formular una indicación.
+
+    ![img_7.png](ims%2FC3%2Fimg_7.png)
+
+2. **Influencia del contexto de Indicación**: La manera en que se estructura una indicación (incluyendo la presentación de contexto, detalles, y estructura) puede tener un impacto significativo en la naturaleza de la respuesta generada. Es posible guiar al modelo hacia un formato de respuesta deseado proporcionándole una estructura de indicación correspondiente.
+
+    ![img_8.png](ims%2FC3%2Fimg_8.png)
+
+3. **Rompiendo y Creando Patrones**: Al introducir indicaciones con palabras o estructuras que desvían los patrones comunes aprendidos por el modelo, los usuarios pueden incentivar respuestas innovadoras. Del mismo modo, al seguir patrones bien establecidos, se pueden obtener respuestas coherentes y predecibles.
+
+    ![img_9.png](ims%2FC3%2Fimg_9.png)
+
+#### Conclusión
+
+Las indicaciones actúan como la interfaz primaria a través de la cual interactuamos con modelos de lenguaje grandes, y su diseño influye directamente en la eficacia y relevancia de las respuestas generadas. Al comprender el funcionamiento subyacente de estos modelos y aplicar estrategias conscientes de diseño de indicaciones, los usuarios pueden mejorar significativamente la calidad y la precisión de las interacciones con sistemas de IA como ChatGPT. Este conocimiento permite a los usuarios no solo obtener la información que buscan de manera efectiva sino también explorar los límites de la creatividad y la generación de contenido de manera colaborativa con la inteligencia artificial.
+
 ### Everyone Can Program with Prompts
 [<- Return to INDEX 3](#index-3)
+
+La narrativa sobre el uso de indicaciones para "programar" interacciones con ChatGPT revela cómo estas herramientas de inteligencia artificial pueden ser utilizadas no solo para resolver consultas sino también para adoptar y seguir reglas complejas especificadas por el usuario. Este enfoque abre un espectro amplio de posibilidades, especialmente para aquellos que no son programadores pero desean realizar tareas que requieren una estructuración y procesamiento lógico de la información, similar al desarrollo de software. A continuación, se analizan los puntos clave de este concepto:
+
+#### Programación de ChatGPT a través de Indicaciones
+- **Creación de Estructuras de Datos Especificadas**: Al solicitar a ChatGPT que formatee las respuestas siguiendo un patrón de lista de valores separados por comas (CSV), se está "programando" al modelo para que siga una estructura de datos predefinida, adaptando su salida a un formato que satisfaga necesidades específicas.
+
+   ![img_10.png](ims%2FC3%2Fimg_10.png)
+
+- **Especificación de Reglas**: Al precisar detalladamente el formato de salida deseado, como incluir columnas específicas (por ejemplo, Nombre, Curso y Rol), se establecen reglas claras que ChatGPT debe seguir, lo que demuestra que se puede influir en las respuestas del modelo con gran precisión.
+
+  
+
+- **Respondiendo a Requisitos Dinámicos y Complejos**: A medida que se refina el conjunto de reglas, solicitando adiciones o cambios específicos, ChatGPT muestra la capacidad de adaptarse y seguir instrucciones cada vez más complejas, lo que refleja un proceso interactivo de "programación en vivo".
+
+    
+
+#### Aplicaciones Prácticas
+- **Formateo y Estructuración de Información**: La capacidad de transformar textos desestructurados en datos estructurados (como tablas CSV) tiene aplicaciones prácticas significativas en documentación, análisis de datos y otros campos donde la organización de la información es clave.
+
+     ![img_11.png](ims%2FC3%2Fimg_11.png)
+
+- **Generación de Ejemplos Automatizados**: Solicitar a ChatGPT que, además de seguir un formato específico, genere ejemplos que se ajusten a esas reglas ilustra cómo se pueden crear automáticamente conjuntos de datos o contenido acorde a necesidades particulares.
+
+    ![img_12.png](ims%2FC3%2Fimg_12.png)
+
+#### Reflexión y Perspectiva
+- **La IA como Asistente Programable**: La interacción descrita es analógica a la comunicación con un asistente personal, donde las instrucciones se refinan progresivamente para obtener el resultado deseado. Esto subraya el potencial de los MLG como herramientas programables accesibles para una amplia gama de usuarios.
+
+- **Estrategias Efectivas de Indicaciones**: La efectividad de esta interacción reside en la habilidad para construir y ajustar las indicaciones de manera que instruyan con precisión al modelo. Se destaca la importancia de ser específico, claro y progresivamente detallado en las solicitudes.
+
+    
+
+#### Conclusión
+La posibilidad de "programar" ChatGPT mediante indicaciones específicas y complejas desafía la noción tradicional de programación, ofreciendo un paradigma donde usuarios sin experiencia en codificación pueden dirigir comportamientos de IA para lograr tareas específicas. Esto no solo democratiza el acceso a la personalización de herramientas de IA sino que también amplía el espectro de sus aplicaciones prácticas, inspirando nuevas formas de interactuar y aprovechar la tecnología de modelos de lenguaje grandes.
 
 ## Intro to Prompt Patterns
 [<- Return to INDEX 0](#index-0)
