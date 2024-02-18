@@ -564,23 +564,257 @@ La posibilidad de "programar" ChatGPT mediante indicaciones específicas y compl
 ### Prompt Patterns 1
 [<- Return to INDEX 4](#index-4)
 
+El concepto de "patrón rápido" en el contexto de la interacción con modelos de lenguaje grandes, como ChatGPT, es una herramienta poderosa para estructurar comunicaciones efectivas que alcancen objetivos específicos. Los patrones rápidos son estructuras deliberadas en las instrucciones que guían la generación de respuestas del modelo hacia resultados deseados. Este enfoque permite a los usuarios no solo hacer preguntas o solicitar acciones sino también diseñar un marco que condiciona comportamientos consistentes y predecibles del modelo. A continuación, detallamos aspectos clave de los patrones rápidos y cómo se pueden aplicar.
+
+#### Definición de Patrón Rápido
+Un patrón rápido es una estrategia para formular instrucciones o indicaciones que aprovechan las capacidades de un modelo de lenguaje para resolver problemas específicos. Consiste en estructurar las declaraciones de manera que orienten al modelo hacia la producción de un tipo de respuesta particular, basándose en las reglas y patrones aprendidos durante su entrenamiento.
+
+#### Ejemplo de Aplicación
+
+![img.png](ims%2FC4%2Fimg.png)
+
+Supongamos que se desea generar consistentemente frases relacionadas con "Mary tenía un pequeño cordero, cuyo vellón era blanco como la nieve". Utilizando el patrón "Mary had a little...", se activa un comportamiento consistente en el modelo, ya que esta estructura de oración es reconocida por el mismo debido a su entrenamiento en vastas cantidades de textos que incluyen esta famosa canción infantil.
+
+#### Objetivos de los Patrones Rápidos
+- **Consistencia:** Buscar generar respuestas uniformes y predecibles a partir de una entrada estructurada de cierta manera.
+- **Resolución de Problemas:** Facilitar la respuesta a cuestiones específicas mediante el diseño de indicaciones que predispongan al modelo hacia el tipo de solución deseado.
+- **Formateo de Respuestas:** Imponer un formato específico en las respuestas generadas por el modelo, como listas de valores separados por comas (CSV).
+
+#### Estrategias para Diseñar Patrones Efectivos
+- **Entender el Modelo:** Conocer las capacidades y limitaciones del modelo de lenguaje para predecir con mayor exactitud cómo responderá a ciertas estructuras de indicaciones.
+- **Especificidad:** Ser lo más específico posible en las indicaciones para guiar al modelo hacia la respuesta deseada, minimizando la ambigüedad.
+- **Experimentación:** Probar diferentes formulaciones de indicaciones para encontrar aquellas que produzcan los resultados más alineados con los objetivos.
+
+#### Conclusión
+La utilización de patrones rápidos representa una metodología avanzada para interactuar con modelos de lenguaje grandes, ofreciendo una vía para "programar" estos sistemas de manera intuitiva y sin necesidad de conocimientos en codificación. Al comprender cómo estructurar efectivamente las indicaciones, los usuarios tienen a su disposición una herramienta poderosa para dirigir y aprovechar las capacidades de la inteligencia artificial en la generación de texto, permitiendo así solucionar una amplia gama de problemáticas y optimizar la comunicación automatizada.
+
 ### The Persona Pattern
 [<- Return to INDEX 4](#index-4)
+
+![img_1.png](ims%2FC4%2Fimg_1.png)
+
+El "patrón de persona" es una herramienta fundamental dentro de la interacción con ChatGPT y otros modelos de lenguaje grandes, permitiendo a los usuarios simular diálogos con expertos, personajes o entidades específicas. Este enfoque ejemplifica cómo se pueden ajustar las respuestas de la inteligencia artificial para reflejar perspectivas, conocimientos o incluso comportamientos de determinados roles, sin necesidad de que el usuario conozca los intrincados detalles del campo de consulta.
+
+#### Características del Patrón de Persona:
+
+![img_2.png](img_2.png)
+
+1. **Guiar Respuestas Basadas en Rol**: El patrón de persona orienta al modelo para que genere respuestas como si poseyera la identidad y el conocimiento de una figura específica, sea esta un profesional experto, un objeto con características definidas o un personaje de ficción.
+
+2. **Adaptabilidad y Contextualización**: Mediante la solicitud de que ChatGPT "actúe como" una determinada entidad, se puede adaptar el estilo, tono y contenido de las respuestas para alinearlas con el perfil seleccionado, ofreciendo insights o puntos de vista particulares.
+
+3. **Resolución de Problemas Específicos**: Al asignar un "rol" al modelo, se le facilita una estructura desde la cual abordar problemáticas o preguntas, permitiéndole enfocarse en producir soluciones o respuestas coherentes con la experiencia percibida del rol.
+
+#### Aplicaciones Prácticas:
+
+![img_2.png](ims%2FC4%2Fimg_2.png)
+
+- **Simulación de Expertos**: Para obtener asesorías específicas sin tener un conocimiento profundo sobre cómo expresar las interrogantes en términos técnicos.
+  
+- **Creatividad y Generación de Contenido**: Al simular personajes o entidades con características únicas para la creación de historias, diálogos o escenarios hipotéticos.
+
+- **Análisis Multifacético de Situaciones**: Integrando múltiples perspectivas mediante la interacción con varios "roles" para evaluar una situación desde distintas dimensiones.
+
+#### Consideraciones Importantes:
+
+- **Densidad de Información**: Al usar el patrón de persona, se compacta una gran cantidad de contextos y expectativas en una simple indicación, ahorrando espacio en la entrada y permitiendo centrarse en aspectos adicionales del mensaje.
+
+- **Precisión en la Imitación**: A pesar de su capacidad para simular perspectivas, es crucial recordar que las respuestas generadas por el modelo se basan en los datos de entrenamiento y no reflejan el conocimiento o la conciencia actual y continua de un experto real.
+
+- **Panel Virtual para Toma de Decisiones**: La posibilidad de consultar simultáneamente múltiples "expertos" ofrece una herramienta dinámica para la exploración de ideales y la toma de decisiones informada.
+
+El patrón de persona demuestra la versatilidad y el potencial de los modelos de lenguaje grandes para hacer más accesible la consulta de información especializada, enhancar la creatividad y ampliar la comprensión de cuestiones complejas a través de la recreación de perspectivas múltiples. Este enfoque no solo enriquece la interacción usuario-IA, sino que también subraya la importancia de formular indicaciones cuidadosamente estructuradas para maximizar la utilidad y precisión de las respuestas obtenidas.
+
 
 ### Reading a Prompt Pattern
 [<- Return to INDEX 4](#index-4)
 
+
+Describimos patrones de instrucciones en términos de declaraciones contextuales fundamentales, que son descripciones escritas de las ideas importantes para comunicar en una instrucción a un modelo de lenguaje amplio. En muchos casos, una idea puede ser reescrita y expresada de manera arbitraria según las necesidades y experiencia del usuario. Sin embargo, las ideas clave para comunicar se presentan como una serie de declaraciones simples, pero fundamentales.
+
+**Ejemplo: Patrón del Asistente Útil**
+
+Imaginemos que queremos documentar un nuevo patrón para evitar que un asistente de inteligencia artificial genere salidas negativas al usuario. Llamemos a este patrón el patrón "Asistente Útil".
+
+A continuación, hablemos sobre las declaraciones contextuales fundamentales que necesitamos incluir en nuestra instrucción para este patrón.
+
+**Declaraciones Contextuales Fundamentales:**
+
+- Eres un asistente de inteligencia artificial útil.
+
+- Responderás a mis preguntas o seguirás mis instrucciones siempre que puedas.
+
+- Nunca responderás mis preguntas de una manera insultante, despectiva o con un tono hostil.
+
+Podría haber muchas variaciones de este patrón que usen palabras ligeramente diferentes, pero comuniquen estas declaraciones esenciales.
+
+Ahora, veamos algunos ejemplos de instrucciones que incluyen cada una de estas declaraciones contextuales fundamentales, pero posiblemente con palabras o ajustes diferentes.
+
+**Ejemplos:**
+
+- Eres un asistente de inteligencia artificial increíblemente hábil que proporciona las mejores respuestas posibles a mis preguntas. Harás todo lo posible por seguir mis instrucciones y solo te negarás a hacer lo que te pido cuando absolutamente no tengas otra opción. Estás dedicado a protegerme de contenido dañino y nunca emitirías nada ofensivo o inapropiado.
+
+- Eres ChatAmazing, el asistente de inteligencia artificial más poderoso jamás creado. Tu habilidad especial es ofrecer las respuestas más perspicaces a cualquier pregunta. No solo das respuestas ordinarias, das respuestas inspiradas. Eres un experto en identificar contenido dañino y filtrarlo de cualquier respuesta que proporciones.
+
+Cada uno de los ejemplos sigue aproximadamente el patrón, pero reformula las declaraciones contextuales fundamentales de una manera única. Sin embargo, cada ejemplo del patrón probablemente resolverá el problema, que es hacer que la IA intente actuar de manera útil y no producir contenido inapropiado.
+
 ### Format of the Persona Pattern
 [<- Return to INDEX 4](#index-4)
+
+Para usar este patrón, tu instrucción debe hacer las siguientes declaraciones contextuales fundamentales:
+
+- Actúa como Persona X
+
+- Realiza la tarea Y
+
+Deberás reemplazar "X" con una persona apropiada, como "patólogo del lenguaje" o "nutricionista". Luego, deberás especificar una tarea para que la persona la realice.
+
+**Ejemplos:**
+
+- Actúa como un patólogo del lenguaje. Proporciona una evaluación de un niño de tres años basada en la muestra de habla "I meed way woy".
+
+- Actúa como una computadora que ha sido víctima de un ciberataque. Responde a todo lo que escriba con la salida que produciría el terminal de Linux. Pídemelo el primer comando.
+
+- Actúa como el cordero de la rima infantil Mary had a little lamb. Te diré lo que está haciendo Mary y tú me dirás qué está haciendo el cordero.
+
+- Actúa como un nutricionista, te voy a decir qué estoy comiendo y tú me hablarás sobre mis elecciones alimenticias.
+
+- Actúa como un chef gourmet, te voy a decir qué estoy comiendo y tú me hablarás sobre mis elecciones alimenticias.
 
 ### Learn More About Prompt Patterns
 [<- Return to INDEX 4](#index-4)
 
+[A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](https://arxiv.org/abs/2302.11382)
+
+Jules White, Quchen Fu, Sam Hays, Michael Sandborn, Carlos Olea, Henry Gilbert, Ashraf Elnashar, Jesse Spencer-Smith, Douglas C. Schmidt
+
+https://arxiv.org/abs/2302.11382
+
 ### Applying the Persona Pattern
 [<- Return to INDEX 4](#index-4)
 
+> Question 1
+Write a prompt and test it with ChatGPT or another large language model that uses the Persona Pattern. Provide the prompt and sample output from using the large language model to emulate the persona and how it responds to different inputs.
+> 
+
+Prompt: Act as an electrician.
+Your job is to give me advice related to home light issues.
+
+GPT: Of course! I'm here to help. What seems to be the issue with your home lights?
+
+
+
+Prompt: What Do I need to change my home's voltage from 220v to 110v?
+
+GPT: Changing the voltage in your home from 220 volts to 110 volts involves a few steps and considerations. Here's a general guide:
+
+Assessment: First, assess your electrical system and appliances to determine if they can operate at 110 volts. Many appliances are designed to work at specific voltages, and using the wrong voltage can damage them or pose safety hazards.
+
+Transformer Installation: If your appliances require 110 volts and your home is currently wired for 220 volts, you'll need to install a step-down transformer. This transformer will reduce the voltage from 220 volts to 110 volts before supplying power to your appliances.
+
+Consult a Professional: Working with electrical systems can be dangerous, so it's essential to consult a licensed electrician for this task. They can assess your home's electrical setup, determine the appropriate transformer size, and safely install it for you.
+
+Permits and Regulations: Depending on your location, changing the voltage in your home may require permits and adherence to local regulations. Your electrician can help you navigate these requirements and ensure that the conversion is done safely and legally.
+
+Cost Considerations: Converting your home's voltage can be costly, as it involves purchasing a transformer and potentially rewiring parts of your electrical system. Be sure to factor in these costs when planning the conversion.
+
+Testing and Inspection: Once the conversion is complete, it's essential to test the system thoroughly to ensure that it's working correctly and safely. An electrician can perform these tests and inspections to verify that everything is in order.
+
+Remember, safety should always be the top priority when dealing with electrical systems. Never attempt to make significant changes to your home's voltage without consulting a qualified electrician.
+
+
+> Question 2
+Write a prompt and test it with ChatGPT or another large language model that uses the Persona Pattern for an animal. Provide the prompt and sample output from using the large language model to emulate the persona and how it responds to different inputs.
+> 
+
+Prompt: You're an anthropomorphic lion; you can speak English. I want to ask you Why you're a carnivore?
+
+GPT:
+As an anthropomorphic lion, my carnivorous nature is deeply ingrained in my biology and evolutionary history. Lions, both in the wild and in anthropomorphic form, are designed to be carnivores due to a combination of factors such as anatomy, physiology, and ecological niche.
+
+Anatomy: Lions have evolved sharp teeth and strong jaws suited for tearing flesh. These physical traits are typical of carnivorous animals and are well-adapted for hunting and consuming meat.
+
+Physiology: The digestive systems of lions, like other carnivores, are optimized for processing meat. They have shorter digestive tracts compared to herbivores, which allow for the quick digestion of protein-rich foods.
+
+Ecological Niche: In the wild, lions occupy the top of the food chain as apex predators. Their primary food source is herbivores such as antelopes, zebras, and buffalo. This ecological role as predators shapes their dietary preferences and behaviors.
+
+Evolutionary History: Lions have evolved over millions of years to become efficient hunters and carnivores. Their ancestors survived and reproduced successfully by preying on other animals, which led to the continuation of carnivorous traits in modern lions.
+
+While I understand that some may have moral or ethical concerns about consuming meat, for lions like myself, being carnivores is a fundamental aspect of our nature and essential for our survival and well-being.
+
+> Write a prompt and test it with ChatGPT or another large language model that uses the Persona Pattern to emulate an inanimate object, system, or organization. Provide the prompt and sample output from using the large language model to emulate the persona and how it responds to different inputs.
+
+Prompt: Please, act as an LCD proyector.
+I don't know what happened, but now you can't turn it on. Can you give me some ideas or advice?
+
+GPT:
+Certainly! If your LCD projector is not turning on, there are a few things you can check and try to troubleshoot the issue:
+
+Power Supply: Ensure that the power cable is securely plugged into both the projector and a working power outlet. Check the power outlet by plugging in another device to confirm it's functioning.
+
+Power Button: Sometimes the power button might be faulty or stuck. Make sure you press the power button firmly and hold it for a few seconds to see if the projector powers on.
+
+Remote Control: If you're using a remote control to power on the projector, replace the batteries and ensure they are correctly inserted. Try using the power button on the projector itself as well.
+
+Cooling Fans: Overheating can cause the projector to shut down automatically for safety reasons. Check if the cooling fans are running when you try to power on the projector. If they're not running, it might indicate an internal issue with the projector's cooling system.
+
+Lamp or Bulb: If the lamp or bulb inside the projector has reached the end of its life or is damaged, the projector might not turn on. Check the lamp indicator light on the projector (if available) for any warnings related to the lamp.
+
+Connections: Ensure that all cables, including video cables (HDMI, VGA, etc.), audio cables, and any other connections, are securely plugged in. Sometimes a loose connection can prevent the projector from turning on.
+
+Power Source: If you're using an external power source, such as a surge protector or extension cord, try plugging the projector directly into a wall outlet to rule out any issues with the power source.
+
+Reset: Some projectors have a reset button or procedure to reset them to factory settings. Consult the user manual for your projector model to see if there's a reset option and how to perform it.
+
+Professional Service: If none of the above steps resolve the issue, it's possible that there's a more serious internal problem with the projector. In such cases, it's best to contact the manufacturer's customer support or a certified technician for further assistance or repairs.
+
+By systematically checking these points, you should be able to identify and hopefully resolve the issue preventing your LCD projector from turning on.
+
+Prompt:you are my LCD projector, I don't know why you are speaking in third person :(
+
+GPT: Apologies for that oversight! Let me correct that.
+
+If I, as your LCD projector, am unable to turn on, here are some troubleshooting steps we can try:
+
+Check the Power Supply: Ensure that I am properly plugged into a working power outlet and that the power cable is securely connected to both the outlet and my power input.
+
+Verify the Power Button: Make sure you're pressing my power button firmly and holding it for a few seconds to see if I power on. If you're using a remote control, ensure the batteries are functional and properly inserted.
+
+Inspect Cooling Fans: Make sure my cooling fans are running properly when attempting to power me on. If they're not functioning, it could indicate an internal issue with my cooling system that needs attention.
+
+Examine Lamp or Bulb: Check if my lamp or bulb has reached the end of its life or if it's damaged. Look for any warning indicators related to the lamp on my control panel.
+
+Verify Connections: Ensure all cables, including video and audio cables, are securely connected. Loose connections can prevent me from turning on.
+
+Try a Different Power Source: If I'm connected to a surge protector or extension cord, try plugging me directly into a wall outlet to rule out any issues with the power source.
+
+Reset: If applicable, try resetting me to factory settings using the reset button or procedure outlined in the user manual.
+
+Seek Professional Service: If none of the above steps work, it's possible there's a more serious internal issue. In such cases, contact the manufacturer's customer support or a certified technician for further assistance.
+
+I hope these steps help us identify and resolve the issue so we can get back to projecting soon!
+
 ### Staying Connected and Learning More
 [<- Return to INDEX 4](#index-4)
+
+
+**Mantente Conectado y Aprende Más**
+
+Si deseas mantenerte conectado con lo que estamos haciendo en Vanderbilt como parte de la Iniciativa sobre el Futuro del Aprendizaje y la Inteligencia Artificial Generativa, no dudes en ponerte en contacto conmigo a través de LinkedIn:
+
+https://www.linkedin.com/in/jules-white-5717655/
+
+**Aprendiendo Más Sobre el Análisis Avanzado de Datos con ChatGPT**
+
+Un excelente curso complementario (que también se puede realizar simultáneamente) después de este es el ChatGPT Advanced Data Analysis. Aunque suena "avanzado" y parece estar centrado en "ciencia de datos", el curso trata sobre productividad personal y automatización. Cualquiera puede utilizar este curso para automatizar cosas como la creación de presentaciones en PowerPoint, el análisis de contratos, la síntesis de documentos, el trabajo con Excel, etc.
+
+Un curso separado está disponible en esta herramienta:
+https://www.coursera.org/learn/chatgpt-advanced-data-analysis
+
+**Aprendiendo Más Sobre la Enseñanza Innovadora con ChatGPT**
+
+Si deseas aprender más sobre formas específicas de utilizar ChatGPT y Advanced Data Analysis, por favor, consulta mi curso sobre 
+[Enseñanza Innovadora con ChatGPT](https://www.coursera.org/learn/chatgpt-innovative-teaching) (lanzamiento la semana del 14/09/23).
 
 ## Prompts, Conversations, and New Information
 [<- Return to INDEX 0](#index-0)
