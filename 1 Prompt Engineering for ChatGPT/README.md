@@ -831,20 +831,377 @@ Si deseas aprender más sobre formas específicas de utilizar ChatGPT y Advanced
 ### Introducing New Information to the Large Language Model
 [<- Return to INDEX 5](#index-5)
 
+La habilidad para incorporar información nueva en los modelos de lenguaje grandes, como ChatGPT, revoluciona la forma en que estas herramientas de inteligencia artificial pueden ser empleadas en una amplia gama de aplicaciones, desde la toma de decisiones basada en datos hasta la personalización de respuestas a contextos específicos. Aquí se desglosa cómo esta capacidad potencia la utilidad y flexibilidad de los modelos de lenguaje:
+
+#### Incorporación de Información Nueva:
+
+![img_3.png](ims%2FC4%2Fimg_3.png)
+
+- **Superando Limitaciones del Entrenamiento**: Los modelos de lenguaje grandes se entrenan con vastos conjuntos de datos disponibles hasta cierto punto en el tiempo, lo que implica que no tienen acceso directo a eventos recientes o información específica no incluida en esos datos. La capacidad de introducir información nueva permite superar esta limitación, expandiendo enormemente la relevancia y actualidad de las respuestas del modelo.
+
+- **Introducción Directa en el Mensaje**: La información nueva puede ser incorporada directamente en el texto de las indicaciones a estos modelos. Esto habilita al modelo para razonar sobre y utilizar esta información recién introducida de manera efectiva para generar respuestas o conclusiones.
+
+#### Aplicaciones Prácticas:
+
+![img_4.png](ims%2FC4%2Fimg_4.png)
+
+1. **Análisis Personalizado**: La habilidad de introducir datos o contextos específicos permite a los modelos ofrecer análisis personalizados y relevantes, adaptados a las necesidades individuales o requisitos del proyecto.
+
+2. **Adaptabilidad en la Toma de Decisiones**: Poder suministrar información dinámica convierte a estas herramientas en asistentes capaces de adaptarse y actualizar su base de conocimiento para la toma de decisiones en tiempo real.
+
+3. **Simulación de Razonamiento Expertos**: Al facilitar datos específicos, se puede simular cómo un experto razonaría sobre una problemática dada, sin necesitar que el modelo haya sido entrenado específicamente en esa área de conocimiento.
+
+#### Consideraciones Importantes:
+
+![img_5.png](ims%2FC4%2Fimg_5.png)
+
+- **Precisión y Complejidad de la Información**: La exactitud de las respuestas generadas dependerá significativamente de la precisión y la complejidad de la información nueva proporcionada.
+
+- **Privacidad y Seguridad**: Es esencial considerar cuestiones de privacidad y seguridad al compartir datos sensibles o privados con modelos de lenguaje operados por terceros.
+
+- **Supuestos y Reglas Especiales**: Introducir supuestos específicos o reglas alternativas a los modelos puede alterar fundamentalmente la lógica de su razonamiento, ofreciendo perspectivas novedosas o soluciones a problemáticas bajo condiciones especiales.
+
+#### Conclusión:
+
+La capacidad de introducir información nueva en los modelos de lenguaje grandes abre un abanico de posibilidades para la personalización de respuestas y el análisis basado en datos actualizados o específicos del contexto. Esto refuerza la versatilidad de los modelos de lenguaje como ChatGPT, convirtiéndolos en herramientas aún más potentes y aplicables en una diversidad de contextos, desde el análisis empresarial hasta aplicaciones creativas y educativas. La continua interacción y refinamiento de estas indicaciones asegura que el potencial de la inteligencia artificial para procesar y responder a nueva información es solo limitado por nuestra creatividad y precisión al comunicarnos con estos modelos.
+
 ### Prompt Size Limitations
 [<- Return to INDEX 5](#index-5)
+
+La gestión efectiva de la limitación en el tamaño de los mensajes que se pueden enviar a modelos de lenguaje grandes, como ChatGPT, es crucial para aprovechar su potencial mientras se trabaja dentro de las restricciones técnicas de estos sistemas. Aquí detallamos métodos estratégicos para maximizar la eficacia de las indicaciones dadas a estos modelos, considerando el tamaño máximo permitido para los mensajes.
+
+#### Estrategias para Manejar el Límite de Tamaño de Mensaje:
+
+![img.png](ims%2FC5%2Fimg.png)
+
+1. **Selección y Filtrado de Información**:
+   - Identificar y seleccionar solo la información más relevante y crucial necesaria para el razonamiento o la tarea solicitada.
+   - Filtrar detalles superfluos o redundantes que no contribuyan directamente a la comprensión o resolución del problema.
+
+2. **Resumen y Compresión**:
+   - Utilizar técnicas de resumen para condensar información amplia en segmentos más manejables, manteniendo los puntos clave intactos.
+   - Cuando sea apropiado, solicitar al modelo que genere un resumen como parte de la interacción, especialmente para grandes volúmenes de texto o datos complejos.
+
+3. **Preservación de Elementos Críticos**:
+   - Al comprimir o resumir, asegurarse de que se preservan los elementos críticos necesarios para el razonamiento. Esto puede implicar explícitamente instruir al modelo para centrarse en aspectos como cantidades, fechas, o conceptos clave durante el proceso de resumen.
+   
+4. **Contextualización y Especificación**:
+   - Enmarcar la indicación o pregunta de una manera que guíe específicamente al modelo hacia el área de enfoque deseada sin necesidad de proporcionar grandes cantidades de información contextual.
+   - Proporcionar detalles específicos, como criterios o parámetros particulares, para limitar el ámbito de la respuesta del modelo.
+
+5. **Uso de Información Externa**:
+   - En lugar de incluir largos fragmentos de texto directamente, se pueden resumir previamente o mencionar documentos y fuentes específicos asumiendo un conocimiento implícito por parte del modelo, y luego plantear preguntas o solicitudes basadas en esa información.
+
+#### Consideraciones Importantes:
+
+![img_1.png](ims%2FC5%2Fimg_1.png)
+
+- **Eficiencia vs. Exactitud**: Es necesario encontrar un equilibrio entre la eficiencia del mensaje, lograda mediante la compresión y simplificación, y la exactitud de las respuestas generadas por el modelo. La omisión de información crucial puede llevar a respuestas incompletas o incorrectas.
+
+- **Privacidad y Seguridad**: Al introducir datos o información en el modelo, es crucial considerar la confidencialidad y la seguridad de estos datos, especialmente al utilizar modelos hospedados en entornos compartidos o públicos.
+
+- **Interacción Iterativa**: Dado el límite de tamaño en las entradas, puede ser útil adoptar un enfoque iterativo donde se exploran aspectos del problema en múltiples intercambios con el modelo, cada uno centrado en segmentos de la información relevante.
+
+La capacidad de estructurar preguntas, solicitudes e información de manera estratégica no solo se adapta a las limitaciones técnicas de los modelos de lenguaje grandes sino que también promueve una interacción más rica, enfocada y productiva con estas avanzadas herramientas de IA.
 
 ### Prompts are a Tool for Repeated Use
 [<- Return to INDEX 5](#index-5)
 
+La interacción con modelos de lenguaje grandes, como ChatGPT, trasciende el simple intercambio de preguntas y respuestas. Adoptar un enfoque conversacional, contemplando el diálogo como un proceso iterativo y dinámico, permite un refinamiento progresivo de la comprensión y de las soluciones generadas por el modelo. Este método refleja cómo las conversaciones humanas se utilizan para explorar, clarificar y resolver problemas complejos a través de un intercambio interactivo de ideas.
+
+#### Concepto Clave: Refinamiento Iterativo en la Comunicación
+
+- **Proceso de Afinamiento**: Similar al método escultórico de Miguel Ángel, la interacción con el modelo no debe verse como un acto único que busca la perfección inmediata, sino como un proceso de refinamiento donde cada golpe es un paso más hacia la forma deseada.
+
+- **Adaptabilidad**:
+   - La convergencia hacia la solución óptima o el entendimiento deseado es más efectiva mediante ajustes iterativos basados en la retroalimentación recibida del modelo después de cada interacción.
+   - Tal como un escultor evalúa y ajusta su técnica después de cada golpe al cincel, el usuario puede adaptar sus indicaciones basándose en las respuestas para guiar al modelo más eficazmente hacia el resultado deseado.
+
+#### Ejemplo de Aplicación: Diseño de un Robot
+
+
+
+- **Inicio de la Conversación**: Presentar el contexto general y el objetivo final (p. ej., diseñar un robot en un laboratorio virtual) establece los cimientos sobre los que se construirán interacciones subsecuentes.
+
+    ![img_2.png](ims%2FC5%2Fimg_2.png)
+
+- **Diálogo Progresivo**: La especificación gradual de detalles (meta del robot, materiales necesarios, funcionamiento deseado), alimentada por la retroalimentación del modelo, permite estructurar un plan de acción claro y detallado.
+
+    ![img_3.png](ims%2FC5%2Fimg_3.png)
+
+- **Resolución Colaborativa de Problemas**:
+
+    ![img_4.png](ims%2FC5%2Fimg_4.png)   
+
+   - Al enfrentarse a desafíos o limitaciones (como la dificultad de compartir modelos 3D a través del chat), la conversación puede adaptarse explorando alternativas viables (p.ej., uso de códigos G o STL para impresión 3D).
+   - La colaboración virtual sugiere la posibilidad de adaptar la forma de trabajo a los límites del canal de comunicación, buscando siempre maneras creativas de sortear obstáculos.
+
+#### Reflexiones y Estrategias:
+
+- **Proceso Adaptativo**: Pensar en las interacciones con el modelo como parte de un flujo de trabajo adaptativo y no como eventos discretos aislados.
+
+- **Interacción Basada en Objetivos**: Mantener el enfoque en el objetivo final para guiar el proceso de interacción hacia resultados constructivos y prácticos.
+
+- **Uso de Retroalimentación**:
+   - Integrar activamente la retroalimentación recibida en nuevas indicaciones, ajustando la dirección y el enfoque de la conversación según sea necesario.
+   - Reconocer los límites del modelo y adaptar las expectativas y solicitudes en consecuencia para maximizar la utilidad de las respuestas generadas.
+
+Adoptar un enfoque conversacional en la interacción con modelos de lenguaje grandes no solo amplía la gama de problemas que estos sistemas pueden ayudar a resolver sino que también enriquece la calidad y relevancia de las soluciones generadas, fomentando un diálogo productivo y creativo. Esta metodología refleja la importancia de la iteración y adaptabilidad como pilares de la exploración intelectual y la resolución de problemas en la era de la inteligencia artificial.
+
 ### Root Prompts
 [<- Return to INDEX 5](#index-5)
+
+Las instrucciones raíz en los modelos de lenguaje grandes como ChatGPT representan un conjunto fundamental de directrices que definen la conducta y las capacidades del modelo durante la interacción con los usuarios. Estas instrucciones, aunque no siempre son visibles para el usuario final, establecen parámetros esenciales que influyen en las respuestas generadas por la inteligencia artificial. La exploración y modificación de estas instrucciones raíz pueden abrir nuevas vías para personalizar la experiencia del usuario, establecer límites de seguridad y direccionar el modelo hacia objetivos específicos.
+
+#### Importancia de las Instrucciones Raíz
+
+![img_5.png](ims%2FC5%2Fimg_5.png)
+
+- **Seguridad y Conformidad**: Aseguran que el modelo evite generar respuestas dañinas, inapropiadas o que transgredan los criterios éticos y normativos establecidos. Esto es crucial en un entorno donde los modelos de IA interactúan con una amplia gama de usuarios y contextos aplicativos.
+
+- **Personalización**: Permiten adaptar el comportamiento del modelo para satisfacer necesidades específicas, como priorizar la eficiencia en el tiempo en recomendaciones, ajustándose así mejor al contexto y a las expectativas del usuario.
+
+- **Limitación del Conocimiento**: Mediante instrucciones raíz se puede configurar el modelo para que reconozca sus límites cronológicos de entrenamiento, como ignorar eventos o información posterior a su última actualización, garantizando respuestas acordes a su base de conocimiento.
+
+![img_6.png](ims%2FC5%2Fimg_6.png)
+
+#### Modificación y Experimentación
+
+La modificación de las instrucciones raíz abre experimentaciones interesantes, como:
+
+![img_7.png](ims%2FC5%2Fimg_7.png)
+
+- **Simulación de Limitaciones Temporales**: Ajustando "artificialmente" la fecha de corte del conocimiento del modelo y observar cómo influye en sus respuestas a ciertas preguntas o situaciones.
+  
+- **Creación de Roles Específicos**: Configurar el modelo para que actúe bajo ciertas "personalidades" o funciones, como un asistente personal especializado en eficiencia, puede brindar experiencias únicas y enfocadas.
+
+#### Desafíos y Consideraciones
+
+![img_8.png](ims%2FC5%2Fimg_8.png)
+
+- **Integridad del Modelo**: Ajustar las instrucciones raíz sin contravenir las directrices éticas y de calidad impuestas por los desarrolladores del modelo es fundamental para mantener la responsabilidad y la utilidad del sistema.
+
+- **Barandas Virtuales**: Establecer "barandas" efectivas que permitan explorar la flexibilidad del modelo sin traspasar los límites de seguridad, exactitud y adecuación.
+
+- **Iteración y Refinamiento**: Como con cualquier proceso de modelado o programación, la creación de una experiencia personalizada mediante instrucciones raíz requiere iteración y refinamiento continuos para perfeccionar la interacción y alcanzar los objetivos deseados efectivamente.
+
+La habilidad para ajustar las instrucciones raíz en modelos de lenguaje grandes representa una oportunidad emocionante y poderosa para personalizar la inteligencia artificial, asegurando al mismo tiempo que su aplicación sea segura, ética y efectivamente alineada con las intenciones del usuario. Esto subraya la evolución hacia sistemas de IA cada vez más sofisticados y adaptativos, capaces de ofrecer experiencias profundamente personalizadas y valiosas insights acorde a las necesidades específicas de cada usuario.
 
 ### Creating Prompts with New Information
 [<- Return to INDEX 5](#index-5)
 
+> Question 1
+Create a prompt and test it with a large language model, such as ChatGPT, that introduces new information since 2021. Please only use public information. Do NOT use information that is private, subject to legal restrictions, or otherwise should not be shared with Coursera, ChatGPT, the instructor, etc. The prompt should require the large language model to answer a question about the information. Please provide your prompt and the output as the answer.
+> 
+
+Prompt: Do you know the Chabelo's death cause?
+
+GPT: As of my last update in January 2022, Chabelo, whose real name is Xavier López Rodríguez, was alive. Therefore, I cannot provide information about his cause of death because it hadn't occurred by that time. If there have been any developments since then, I wouldn't be aware of them.
+
+Prompt: Children’s comic and television icon Xavier López, better known as the TV personality “Chabelo,” has died due to “abdominal complications.” He was 88.
+
+Best known for his TV show “En Familia con Chabelo,” which ran for 48 years from 1967 to 2015, López’s death was announced on his official Twitter page this morning with the following statement: “This is a very sad morning, Xavier López, Chabelo, father, brother and husband has left us suddenly, due to abdominal complications.”
+
+The tweet was then followed by a statement from López’s family, “With a torn soul and knowing that many and many people have loved him for many years and that they will feel his departure, we ask you to pray for his rest and give us the opportunity to spend in peace the mourning that overwhelms our entire family.”
+
+Host of Mexico’s longest-running TV show, López oversaw seven decades of children’s programming. The actor also starred in around 30 films and worked on countless additional TV shows.
+
+President of Mexico, Andrés Manuel López Obrador expressed his condolences over the nation’s loss. “Hugs to family and friends for the death of Xavier López ‘Chabelo.’ How can I forget that my eldest son woke up early to see him over 40 years ago.”
+
+Born in Chicago to Mexican parents, at a young age López and his parents returned back to Mexico. López trained as a doctor before his career as a comedic actor, which he believed was his true calling.
+
+Throughout his career and well into his later years, López would dress and perform in children’s clothing which would grow into a treasured comic cornerstone throughout the Mexican cinematic landscape.
+
+He is survived by his children and his wife, Teresita Miranda.
+
+GPT:
+Thank you for providing the update. It's indeed sad news to hear about the passing of Xavier López, known affectionately as Chabelo. His contributions to Mexican television and entertainment have left a lasting impact on generations of viewers. His long-running show, "En Familia con Chabelo," was a cherished part of many people's childhoods. López's ability to connect with audiences, his humor, and his dedication to children's programming will be remembered fondly. May he rest in peace, and may his family find comfort during this difficult time.
+
+> Create a prompt and test it with a large language model, such as ChatGPT, that introduces new information since 2021. Please only use public information. Do NOT use information that is private, subject to legal restrictions, or otherwise should not be shared with Coursera, ChatGPT, the instructor, etc. The prompt should require the large language model to perform a task, other than answering a question, with the information. Please provide your prompt and the output as the answer.
+
+Prompt: What's new in Python 3.12?
+
+GPT:
+As of my last update in January 2022, I don't have specific information on Python 3.12 since it hasn't been released yet. Python's development typically follows a cadence of releasing a new version every 18-24 months. Python's development process is transparent, so you can track the progress of new features, enhancements, and changes by following the Python Enhancement Proposals (PEPs) and the Python dev mailing list.
+
+Prompt: I'll give you information about Python 3.12; with this information, can you provide me a simple Python Code that uses at least 2 new things?
+
+This article explains the new features in Python 3.12, compared to 3.11. Python 3.12 was released on October 2, 2023. For full details, see the changelog.
+
+See also PEP 693 – Python 3.12 Release Schedule
+Summary – Release highlights
+Python 3.12 is the latest stable release of the Python programming language, with a mix of changes to the language and the standard library. The library changes focus on cleaning up deprecated APIs, usability, and correctness. Of note, the distutils package has been removed from the standard library. Filesystem support in os and pathlib has seen a number of improvements, and several modules have better performance.
+
+The language changes focus on usability, as f-strings have had many limitations removed and ‘Did you mean …’ suggestions continue to improve. The new type parameter syntax and type statement improve ergonomics for using generic types and type aliases with static type checkers.
+
+This article doesn’t attempt to provide a complete specification of all new features, but instead gives a convenient overview. For full details, you should refer to the documentation, such as the Library Reference and Language Reference. If you want to understand the complete implementation and design rationale for a change, refer to the PEP for a particular new feature; but note that PEPs usually are not kept up-to-date once a feature has been fully implemented.
+
+New syntax features:
+
+PEP 695, type parameter syntax and the type statement
+
+New grammar features:
+
+PEP 701, f-strings in the grammar
+
+Interpreter improvements:
+
+PEP 684, a unique per-interpreter GIL
+
+PEP 669, low impact monitoring
+
+Improved ‘Did you mean …’ suggestions for NameError, ImportError, and SyntaxError exceptions
+
+Python data model improvements:
+
+PEP 688, using the buffer protocol from Python
+
+Significant improvements in the standard library:
+
+The pathlib.Path class now supports subclassing
+
+The os module received several improvements for Windows support
+
+A command-line interface has been added to the sqlite3 module
+
+isinstance() checks against runtime-checkable protocols enjoy a speed up of between two and 20 times
+
+The asyncio package has had a number of performance improvements, with some benchmarks showing a 75% speed up.
+
+A command-line interface has been added to the uuid module
+
+Due to the changes in PEP 701, producing tokens via the tokenize module is up to 64% faster.
+
+Security improvements:
+
+Replace the builtin hashlib implementations of SHA1, SHA3, SHA2-384, SHA2-512, and MD5 with formally verified code from the HACL* project. These builtin implementations remain as fallbacks that are only used when OpenSSL does not provide them.
+
+C API improvements:
+
+PEP 697, unstable C API tier
+
+PEP 683, immortal objects
+
+CPython implementation improvements:
+
+PEP 709, comprehension inlining
+
+CPython support for the Linux perf profiler
+
+Implement stack overflow protection on supported platforms
+
+New typing features:
+
+PEP 692, using TypedDict to annotate **kwargs
+
+PEP 698, typing.override() decorator
+
+Important deprecations, removals or restrictions:
+
+PEP 623: Remove wstr from Unicode objects in Python’s C API, reducing the size of every str object by at least 8 bytes.
+
+PEP 632: Remove the distutils package. See the migration guide for advice replacing the APIs it provided. The third-party Setuptools package continues to provide distutils, if you still require it in Python 3.12 and beyond.
+
+gh-95299: Do not pre-install setuptools in virtual environments created with venv. This means that distutils, setuptools, pkg_resources, and easy_install will no longer available by default; to access these run pip install setuptools in the activated virtual environment.
+
+The asynchat, asyncore, and imp modules have been removed, along with several unittest.TestCase method aliases.
+
+New Features
+PEP 695: Type Parameter Syntax
+Generic classes and functions under PEP 484 were declared using a verbose syntax that left the scope of type parameters unclear and required explicit declarations of variance.
+
+PEP 695 introduces a new, more compact and explicit way to create generic classes and functions:
+
+def max[T](args: Iterable[T]) -> T:
+...
+
+class list[T]:
+def __getitem__(self, index: int, /) -> T:
+...
+
+def append(self, element: T) -> None:
+...
+In addition, the PEP introduces a new way to declare type aliases using the type statement, which creates an instance of TypeAliasType:
+
+type Point = tuple[float, float]
+Type aliases can also be generic:
+
+type Point[T] = tuple[T, T]
+The new syntax allows declaring TypeVarTuple and ParamSpec parameters, as well as TypeVar parameters with bounds or constraints:
+
+type IntFunc[**P] = Callable[P, int] # ParamSpec
+type LabeledTuple[*Ts] = tuple[str, *Ts] # TypeVarTuple
+type HashableSequence[T: Hashable] = Sequence[T] # TypeVar with bound
+type IntOrStrSequence[T: (int, str)] = Sequence[T] # TypeVar with constraints
+The value of type aliases and the bound and constraints of type variables created through this syntax are evaluated only on demand (see lazy evaluation). This means type aliases are able to refer to other types defined later in the file.
+
+Type parameters declared through a type parameter list are visible within the scope of the declaration and any nested scopes, but not in the outer scope. For example, they can be used in the type annotations for the methods of a generic class or in the class body. However, they cannot be used in the module scope after the class is defined. See Type parameter lists for a detailed description of the runtime semantics of type parameters.
+
+In order to support these scoping semantics, a new kind of scope is introduced, the annotation scope. Annotation scopes behave for the most part like function scopes, but interact differently with enclosing class scopes. In Python 3.13, annotations will also be evaluated in annotation scopes.
+
+See PEP 695 for more details.
+
+
+GPT: Here's a simple Python code that uses two new features introduced in Python 3.12:
+
+Type parameter syntax and the type statement (PEP 695)
+Syntactic formalization of f-strings (PEP 701)
+python
+Copy code
+from typing import TypeVar, Iterable
+
+Define a type variable T
+T = TypeVar('T')
+
+Define a generic function using type parameter syntax
+
+def max_item(items: Iterable[T]) -> T:
+max_val = None
+for item in items:
+if max_val is None or item > max_val:
+max_val = item
+return max_val
+
+Example usage
+
+numbers = [1, 5, 3, 9, 2]
+max_number = max_item(numbers)
+print(f"The maximum number is: {max_number}")
+
+words = ["apple", "banana", "orange"]
+max_word = max_item(words)
+print(f"The maximum word is: {max_word}")
+In this code:
+
+We define a type variable T using the TypeVar function.
+We define a generic function max_item using the new type parameter syntax introduced in PEP 695. This function can accept any iterable of a generic type T and returns the maximum value from the iterable.
+We use this generic function to find the maximum number from a list of numbers and the maximum word from a list of strings.
+We use the new syntactic formalization of f-strings introduced in PEP 701 to print out the results.
+
 ### What to Take After or With this Course
 [<- Return to INDEX 5](#index-5)
+
+Acaba de empezar este curso, pero quiero informarle sobre otro curso que puede realizar simultáneamente o después de este curso para sacar aún más partido a ChatGPT. 
+
+Si tiene una suscripción a ChatGPT+, mi curso sobre Análisis Avanzado de Datos de 
+ChatGPT
+ es un gran paso siguiente. El Análisis Avanzado de Datos de [ChatGPT](https://www.coursera.org/learn/chatgpt-advanced-data-analysis) es una herramienta transformadora para utilizar ChatGPT en el trabajo y con documentos reales. 
+
+El Análisis Avanzado de Datos es como una pala que mira hacia donde está a punto de cavar, se da cuenta de que hay una roca en el camino, salta de sus manos y construye un pico, lo utiliza para romper la roca, y luego salta de nuevo a sus manos para que pueda seguir cavando.
+
+Algunos ejemplos de cosas que aprenderá a hacer en mi nuevo curso:
+
+1. Hacer que el intérprete de código lea sus diapositivas de PowerPoint o sus documentos y cuestione sus suposiciones y le haga preguntas difíciles.
+
+2. Visualice y analice datos de Excel o extraídos directamente de PDF y, a continuación, convierta las visualizaciones en PowerPoint u otros documentos.
+
+3. Automatice operaciones sobre soportes, como redimensionar imágenes, aplicar filtros y catalogarlo todo en un archivo CSV.
+
+4. Comprima un montón de PDF y deje que Code Interpreter lea y reorganice los archivos por usted y luego le entregue un archivo Zip con la nueva estructura de directorios y nomenclatura.
+
+5. Cargue un PDF de un documento de política y haga que responda a preguntas sobre la política o que aplique la política (por ejemplo, aplicar una política de viajes a un recibo para determinar si es reembolsable).
+
+https://www.coursera.org/learn/chatgpt-advanced-data-analysis
 
 ## Introduction to Prompt Patterns
 [<- Return to INDEX 0](#index-0)
