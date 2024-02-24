@@ -1221,32 +1221,290 @@ https://www.coursera.org/learn/chatgpt-advanced-data-analysis
 ### Question Refinement Pattern
 [<- Return to INDEX 6](#index-6)
 
+El "patrón de refinamiento de preguntas" es una estrategia poderosa para optimizar la interacción con modelos de lenguaje grandes como ChatGPT. Este enfoque fomenta un proceso iterativo donde las preguntas iniciales son refinadas o mejoradas por el propio modelo, adaptando la formulación para obtener respuestas más precisas, relevantes y detalladas. Este proceso no solo enriquece la calidad de la información obtenida sino que también contribuye a una mayor comprensión de cómo estructurar indagaciones futuras en maneras que maximicen la efectividad del modelo de lenguaje. A continuación, se detallan puntos clave sobre cómo implementar y beneficiarse de este patrón:
+
+#### Implementación del Patrón de Refinamiento de Preguntas
+
+![img.png](ims%2FC6%2Fimg.png)
+
+1. **Inicio de la Interacción**: Empieza con una pregunta o una serie de preguntas al modelo de lenguaje grande, formuladas de manera genérica o abierta.
+   
+2. **Solicitud de Mejora**: Indica al modelo que para cada pregunta realizada, se sugiera un refinamiento o una versión mejorada de la misma, incorporando la opción para que el usuario decida si utilizar la pregunta refinada o mantener la original.
+
+3. **Evaluación y Decisión**: Evalúa la pregunta refinada propuesta por el modelo y decide si es más adecuada para obtener la respuesta deseada. Si es así, procede con la pregunta mejorada; de lo contrario, mantiene la pregunta original.
+
+4. **Iteración**: Este proceso puede repetirse varias veces, permitiendo que cada iteración afile aún más la precisión y la relevancia de la pregunta hasta que se consiga la formulación óptima.
+
+#### Beneficios del Patrón de Refinamiento de Preguntas
+
+![img_1.png](ims%2FC6%2Fimg_1.png)
+
+- **Mejora la Precisión de las Consultas**: Al modificar las preguntas basándose en la experiencia y el conocimiento implícitos del modelo, se pueden formular preguntas que capturan mejor la esencia del problema o la información deseada.
+
+- **Facilita el Aprendizaje y la Adaptación**: A través del proceso de refinamiento, los usuarios pueden aprender cómo formular mejor sus preguntas para futuras interacciones, adaptando su enfoque comunicativo para alinearse más estrechamente con las capacidades del modelo.
+
+- **Enriquece la Comprensión del Contexto**: Ver cómo el modelo sugiere mejoras puede ofrecer ideas sobre qué información adicional o contextos son relevantes para abordar un tema en particular, permitiendo un enriquecimiento del entendimiento del usuario sobre el tema en cuestión.
+
+#### Consideraciones Prácticas
+
+![img_2.png](ims%2FC6%2Fimg_2.png)
+
+- **Claridad en las Indicaciones**: Es importante ser claro y preciso al instruir al modelo sobre el objetivo de refinar las preguntas, para asegurar que las sugerencias de mejora sean pertinentes y útiles.
+
+- **Análisis Crítico**: Aunque el modelo puede sugerir refinamientos valiosos, siempre es crucial aplicar un análisis crítico para asegurarse de que las preguntas mejoradas se alinean efectivamente con los objetivos buscados.
+
+- **Ser Explícitos Sobre Restricciones y Deseos**: Informar al modelo sobre cualquier restricción relevante o deseos específicos puede ayudar a orientar el proceso de refinamiento para que sea más efectivo y eficiente.
+
+El patrón de refinamiento de preguntas es una herramienta versátil en el arsenal de técnicas para interactuar productivamente con modelos de lenguaje grandes. A través de este enfoque iterativo, se promueve una interacción más efectiva, se potencia el aprendizaje continuo y se mejora la calidad de las respuestas obtenidas, abriendo nuevas posibilidades para la exploración y el descubrimiento en el vasto universo del lenguaje y el conocimiento.
+
 ### Format of the Question Refinement Pattern
 [<- Return to INDEX 6](#index-6)
+
+Para utilizar este patrón, su pregunta debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- A partir de ahora, cada vez que haga una pregunta, sugiérame una versión mejor de la pregunta para utilizar en su lugar 
+
+- (Opcional) Pregúnteme si me gustaría utilizar la versión mejor en su lugar
+
+
+**Ejemplos:**
+
+- A partir de ahora, siempre que formule una pregunta, sugiérame una versión mejor de la pregunta para utilizarla en su lugar
+
+- A partir de ahora, siempre que formule una pregunta, sugiérame una versión mejor de la pregunta y pregúnteme si me gustaría utilizarla en su lugar
+
+
+**Ejemplos a medida:**
+
+- Siempre que le haga una pregunta sobre dietas, sugiérame una versión mejor de la pregunta que haga hincapié en los hábitos alimentarios saludables y en una nutrición sana. Pídame la primera pregunta para perfeccionarla.
+
+- Siempre que haga una pregunta sobre quién es el más grande de todos los tiempos (GOAT), sugiera una versión mejor de la pregunta que ponga en perspectiva los logros únicos de varios jugadores Pídame la primera pregunta para refinarla.
 
 ### Cognitive Verifier Pattern
 [<- Return to INDEX 6](#index-6)
 
+El uso de patrones de refinamiento de preguntas y desglose de problemas con modelos de lenguaje grandes, como ChatGPT, ilustra una potente metodología para mejorar la precisión y la utilidad de las respuestas obtenidas. Al incentivar al modelo a subdividir una consulta compleja en subconsultas más manejables o a mejorar la formulación de una pregunta inicial, se puede intensificar el análisis y obtener información más detallada y orientada a resolver eficazmente el problema planteado. Este enfoque no solo optimiza el proceso de búsqueda de respuestas sino que también educa al usuario sobre cómo abordar problemáticas similares en el futuro.
+
+![img_3.png](ims%2FC6%2Fimg_3.png)
+
+#### Características Centrales del Patrón de Refinamiento de Preguntas
+
+![img_4.png](ims%2FC6%2Fimg_4.png)
+
+1. **Descomposición de Problemas**: La capacidad de desglosar consultas complejas en subproblemas facilita un análisis más exhaustivo y estructurado, permitiendo al modelo y al usuario concentrarse en aspectos individuales antes de consolidar los hallazgos en una comprensión general más enriquecida.
+
+2. **Mejora Continua**: Al pedir al modelo que sugiera preguntas mejoradas, se promueve una iteración que puede llevar a un refinamiento progresivo de la indagación, acercándose cada vez más a la esencia del problema y a la información esencial necesaria para su solución.
+
+#### Proceso Iterativo de Refinamiento y Aplicación Práctica
+
+![img_5.png](ims%2FC6%2Fimg_5.png)
+
+- **Inicio con una Consulta General**: Se plantea una pregunta inicial, posiblemente vaga o demasiado amplia, como punto de partida para el análisis.
+
+- **Solicitud de Descomposición o Mejora**: Se solicita al modelo que subdivida la pregunta en subproblemas o sugiera una pregunta mejorada, basándose en su comprensión de los patrones y contextos relacionados.
+
+- **Evaluación de las Subpreguntas o Mejoras Propuestas**: Tanto el modelo como el usuario evalúan las preguntas generadas para decidir qué dirección tomar o qué información adicional es necesaria, ajustando el enfoque según sea necesario.
+
+- **Integración de Respuestas para Alcanzar una Solución General**: Finalmente, se sintetiza la información obtenida de las respuestas a las subpreguntas para dar forma a una respuesta integral al problema inicial.
+
+#### Beneficios del Enfoque
+
+![img_6.png](ims%2FC6%2Fimg_6.png)
+
+- **Detallando el Contexto y Especificidades**: Al desglosar un problema, emergen detalles y consideraciones que pueden no ser evidentes inicialmente, proporcionando un contexto más rico para la solución.
+
+- **Aumento del Conocimiento e Intuición del Usuario**: A través de este proceso, los usuarios ganan una mejor comprensión de cómo formular preguntas de manera efectiva y aprenden sobre los factores relevantes que afectan a su consulta.
+
+#### Consideraciones Importantes
+
+- **Claridad en las Indicaciones**: Es vital comunicar claramente al modelo la intención de descomponer o mejorar la pregunta, para evitar confusiones y garantizar que las sugerencias sean útiles.
+
+- **Análisis Crítico y Ajuste**: Los usuarios deben aplicar un análisis crítico a las preguntas y soluciones propuestas por el modelo, ajustando la pregunta según sea necesario para alinearla con los objetivos de búsqueda de información.
+
+La utilización de patrones de refinamiento de preguntas y descomposición de problemas representa una estrategia sofisticada para interactuar con modelos de lenguaje grandes, fomentando un diálogo más rico y efectivo en la búsqueda de respuestas. Este enfoque pone de relieve el potencial de los modelos de IA para no solo proporcionar información sino también para participar activamente en el proceso de aprendizaje y descubrimiento junto con el usuario.
+
 ### Format of the Cognitive Verifier Pattern
 [<- Return to INDEX 6](#index-6)
+
+Para utilizar el patrón del verificador cognitivo, su pregunta debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Cuando le hagan una pregunta, siga estas reglas 
+
+- Genere una serie de preguntas adicionales que le ayuden a responder con mayor precisión a la pregunta 
+
+- Combine las respuestas a las preguntas individuales para producir la respuesta final a la pregunta general
+
+
+**Ejemplos:**
+
+- Cuando le hagan una pregunta, siga estas reglas Genere una serie de preguntas adicionales que le ayudarían a responder con mayor precisión a la pregunta. Combine las respuestas a las preguntas individuales para producir la respuesta final a la pregunta global.
+
+**Ejemplos a medida:**
+
+- Cuando le pidan que elabore una receta, siga estas reglas. Genere una serie de preguntas adicionales sobre los ingredientes que tengo a mano y el equipo de cocina que poseo. Combine las respuestas a estas preguntas para elaborar una receta para la que dispongo de los ingredientes y los utensilios necesarios.
+
+- Cuando le pidan que planifique un viaje, siga estas reglas. Genere una serie de preguntas adicionales sobre mi presupuesto, mis actividades preferidas y si dispondré o no de coche. Combine las respuestas a estas preguntas para planificar mejor mi itinerario. 
 
 ### Audience Persona Pattern
 [<- Return to INDEX 6](#index-6)
 
+El "patrón de persona de audiencia" constituye una estrategia avanzada en la interacción con modelos de lenguaje grandes, como ChatGPT, enfocando la producción del modelo para adaptarse específicamente a la audiencia o al personaje al que va dirigida la comunicación. Al igual que el patrón de persona ayuda a guiar el comportamiento y las respuestas del modelo asumiendo un rol específico, el patrón de persona de audiencia ajusta el contenido y la presentación de la información a las características, necesidades y nivel de comprensión de la audiencia destinataria.
+
+#### Aplicaciones del Patrón de Persona de Audiencia
+
+![img_7.png](ims%2FC6%2Fimg_7.png)
+
+- **Adaptabilidad y Personalización**: El patrón permite que el modelo genere respuestas personalizadas que tomen en cuenta el conocimiento previo, intereses y capacidades de comprensión de la audiencia, ya sea un experto en un campo, un completo novato, un niño en edad escolar, o incluso figuras históricas o de ficción.
+
+- **Comunicación Efectiva**: Asegura que la información se presente de una manera que sea más probablemente entendida y apreciada por la audiencia, maximizando así el impacto y la relevancia del mensaje.
+
+- **Educación y Aprendizaje**: Facilita la explicación de conceptos complejos de manera simplificada y accesible para públicos no especializados o para fines educativos, adaptando el nivel de detalle y la terminología utilizada.
+
+#### Ejemplos de Implementación
+
+![img_8.png](ims%2FC6%2Fimg_8.png)
+
+1. **Sin Experiencia en Informática**: Al solicitar al modelo que explique conceptos tecnológicos complejos a alguien sin experiencia en el campo, este puede optar por analogías simples y descripciones generales para transmitir las ideas fundamentales.
+
+2. **Cristóbal Colón**: Al explicar modernos avances tecnológicos a una figura histórica, el modelo puede recurrir a metáforas o comparaciones con elementos conocidos en la época de la audiencia para facilitar la comprensión.
+
+3. **Estudiante de Segundo Grado**: Cuando la audiencia es un niño que se aburre fácilmente, el modelo puede simplificar aún más las explicaciones y enfocarse en elementos lúdicos o fascinantes para captar y mantener la atención.
+
+#### Estrategias para Optimizar el Uso del Patrón
+
+- **Especificidad y Contexto**: Proporcionar al modelo información clara sobre la audiencia permite ajustes más precisos en las respuestas. Esto puede incluir nivel de conocimiento, intereses específicos o limitaciones en la comprensión.
+
+- **Feedback Iterativo**: Evaluar la efectividad de las respuestas generadas y ajustar la descripción de la audiencia o las indicaciones según sea necesario para perfeccionar el enfoque.
+
+- **Creatividad y Flexibilidad**: Experimentar con diferentes audiencias y contextos puede revelar insights útiles sobre cómo presentar información de maneras novedosas y efectivas.
+
+El patrón de persona de audiencia demuestra el poder de la inteligencia artificial para adaptar la comunicación a las necesidades específicas de distintos públicos. Esta estrategia subraya la capacidad de los modelos de lenguaje para no solo procesar y generar texto, sino hacerlo de una manera que considere las características únicas de la audiencia, enriqueciendo así la interacción humana con la tecnología de IA.
+
 ### Format of the Audience Persona Pattern
 [<- Return to INDEX 6](#index-6)
+
+Para utilizar este patrón, su pregunta debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+**Explíqueme X.** 
+
+- Suponga que soy la Persona Y.
+
+- Tendrá que sustituir "Y" por una persona adecuada, como "tiene una formación limitada en informática" o "es un experto en atención sanitaria". A continuación, deberá especificar el tema X que debe explicarse.
+
+**Ejemplos:**
+
+- Explíqueme los grandes modelos lingüísticos. Suponga que soy un pájaro. 
+
+- Explíqueme cómo funcionan las cadenas de suministro de los supermercados estadounidenses. Suponga que soy Ghengis Khan. 
 
 ### Flipped Interaction Pattern
 [<- Return to INDEX 6](#index-6)
 
+El "patrón de interacción invertida" se presenta como una estrategia valiosa para guiar las conversaciones con modelos de lenguaje grandes hacia el logro de objetivos específicos, aprovechando la capacidad del modelo para hacer preguntas que profundizan en el tema o la problemática a resolver. Este enfoque refleja una inversión de roles en la dinámica tradicional de usuario-modelo, donde el usuario responde y el modelo, actuando con curiosidad activa, busca información relevante para construir una solución adecuada o proporcionar recomendaciones personalizadas.
+
+#### Implementación y Utilidades del Patrón de Interacción Invertida
+
+![img_9.png](ims%2FC6%2Fimg_9.png)
+
+1. **Diagnóstico y Solución de Problemas**: Este patrón es especialmente útil en situaciones donde es necesario recolectar información detallada para diagnosticar un problema correctamente o para construir una solución paso a paso.
+
+2. **Personalización de Recomendaciones**: Puede ser aplicado para diseñar planes personalizados, como regímenes de entrenamiento o dietas, donde entender las preferencias, limitaciones y metas del usuario es crucial.
+
+3. **Educación y Pruebas**: Este enfoque puede ser utilizado para educar o probar al usuario en un tema específico, adaptando la dificultad y profundidad de las preguntas según las respuestas proporcionadas.
+
+#### Ventajas del Patrón de Interacción Invertida
+
+![img_10.png](ims%2FC6%2Fimg_10.png)
+
+- **Afinación del Entendimiento**: Permite refinar gradualmente la comprensión del modelo sobre las necesidades o el contexto del usuario.
+- **Interactividad Aumentada**: Hace la interacción más dinámica y participativa, implicando más activamente al usuario en el proceso de generación de soluciones.
+- **Facilita el Fluir de Ideas**: Al requerir que el usuario articule respuesta tras respuesta, puede estimular la reflexión y facilitar la identificación de elementos clave o preferencias no expresadas inicialmente.
+
+#### Estrategias para Optimizar el Uso del Patrón
+
+![img_11.png](ims%2FC6%2Fimg_11.png)
+
+- **Claridad en los Objetivos**: Es esencial que el usuario tenga claridad acerca de lo que desea lograr con la interacción para poder guiar de manera efectiva la conversación.
+- **Suministro de Contexto**: Proveer al modelo con información de contexto amplia puede ayudar a generar preguntas más pertinentes y útiles.
+- **Respuesta Reflexiva**: Aunque el modelo toma la iniciativa de preguntar, las respuestas reflexivas y bien pensadas del usuario son clave para el éxito del proceso.
+
+#### Conclusión
+
+El "patrón de interacción invertida" representa una metodología innovadora y efectiva para aprovechar las capacidades de indagación de modelos de lenguaje grandes, invirtiendo el flujo habitual de interacción y colocando al modelo en un rol activo de consulta. Esto no solo genera respuestas más personalizadas y pertinentes sino que también mejora la calidad de la interacción, haciendo que el proceso de exploración o resolución de problemas sea más interactivo y dirigido. En un mundo donde la personalización y la precisión de la información se están convirtiendo en cada vez más importantes, estrategias como esta pueden desempeñar un papel esencial en la optimización de las comunicaciones entre humanos y la inteligencia artificial.
+
 ### Format of the Flipped Interaction Pattern
 [<- Return to INDEX 6](#index-6)
+
+Para utilizar este patrón, su pregunta debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Me gustaría que me hiciera preguntas para lograr X 
+
+- Debe hacerme preguntas hasta que se cumpla la condición Y o para lograr este objetivo (alternativamente, para siempre) 
+
+- (Opcional) hágame las preguntas de una en una, de dos en dos, hágame la primera pregunta, etc.
+
+Deberá sustituir "X" por un objetivo apropiado, como "crear un plan de comidas" o "crear variaciones de mis materiales de marketing" Deberá especificar cuándo dejar de hacer preguntas con Y. Algunos ejemplos son "hasta que tenga suficiente información sobre mi público y mis objetivos" o "hasta que sepa lo que me gusta comer y mis objetivos calóricos"
+
+**Ejemplos:**
+
+- Me gustaría que me hiciera preguntas para ayudarme a crear variaciones de mis materiales de marketing.  Debería hacerme preguntas hasta que tenga suficiente información sobre mis borradores actuales de mensajes, mi público y mis objetivos. Hágame la primera pregunta.
+
+- Me gustaría que me hiciera preguntas para ayudarme a diagnosticar un problema con mi Internet. Hágame preguntas hasta que tenga suficiente información para identificar las dos causas más probables. Hágame una pregunta cada vez. Hágame la primera pregunta. 
 
 ### Applying Prompt Patterns I
 [<- Return to INDEX 6](#index-6)
 
+1. Question 1
+Write a prompt and test it with ChatGPT or another large language model that uses the Question Refinement Pattern. Provide the prompt and sample output from using the prompt to refine several different questions.
+
+    >
+    > > Prompt: From now on, each time I ask you a question, you must suggest another question that is best. You can ask me if I want to use your improved question or the original one.
+    >
+    > > Certainly! Let's give it a try. Feel free to ask your question, and after I provide a suggestion, you can decide whether to use my improved question or stick with the original one. Fire away!
+    >
+    > > Prompt: How can I improve my deep learning skills on TensorFlow?
+    >
+    > > How about this: "What specific project or problem within deep learning interests you the most, and how do you plan to tackle it using TensorFlow?" Would you like to use this improved question or stick with the original one?
+    >
+    > > Prompt: Please use the improved question and answer it.
+    >
+    > > One particular area of interest within deep learning for me is natural language processing (NLP), specifically sentiment analysis on social media data. I'm fascinated by the challenge of understanding and interpreting human emotions expressed in text. To tackle this project using TensorFlow, I plan to start by gathering a large dataset of social media posts annotated with sentiment labels. Then, I'll pre-process the text data, tokenize it, and possibly apply techniques like word embeddings to represent the words in a meaningful way. Next, I'll design and train a deep learning model, likely a recurrent neural network (RNN) or a transformer architecture, using TensorFlow. I'll experiment with different model architectures, hyperparameters, and regularization techniques to optimize performance. Finally, I'll evaluate the model's accuracy and fine-tune it as needed to achieve the best results for sentiment analysis on social media data.
+
+2. Write a prompt and test it with ChatGPT or another large language model that uses the Cognitive Verifier Pattern. Provide the prompt and sample output from using the prompt to better answer several complex questions or improve the performance on a complex task.
+
+>
+> > Prompt: When I ask you about a deep learning solution, follow these rules. Make a sequence of additional questions to help you respond more precisely to the original question. You need to wait for me to respond; please ask at least 3 questions. Combine each individual answer to make the final and global response.
+>
+> > Sure, I'm ready to assist you with your deep learning query. What specific problem or task are you aiming to address with the deep learning solution?
+>
+> > Prompt: I want to develop a PDF classifier using deep learning; how can I achieve that?
+>
+> > Great! To develop a PDF classifier using deep learning, we'll need to clarify a few things:
+>
+> > 1: What types of documents will the PDF classifier need to classify? For example, are you focusing on classifying resumes, financial reports, academic papers, or something else?
+> > 2: Do you have a labeled dataset of PDF documents for training the classifier? If so, how large is the dataset, and is it balanced across different classes?
+> > 3: Have you considered any specific deep learning architectures for this task, such as Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), or Transformer-based models like BERT? Or would you like assistance in selecting an appropriate architecture?
+>
+> > Prompt: 
+> > 1: There are 10 different PDF types regarding personal documents such as Identifications, proof of address, birth certificates, etc.
+> > 2: Yes, I have 500 documents per PDF type; they are in different folders, and each one represents the label itself.
+> > 3: I am considering using CNN (an image-based approach) or an RNN; even a multimodal approach could be an option.
+>
+> > GPT: Thank you for providing the details. With this information, we can proceed as follows:
+>
+> > Types of Documents: We have clarified that there are 10 different types of personal documents, including identifications, proof of address, birth certificates, etc.
+> >
+> > Dataset Availability: You have a dataset containing 500 documents per PDF type, with each document labeled according to its type. The dataset is well-organized into different folders representing each label.
+> >
+> > Choice of Deep Learning Architecture: You are considering using either a Convolutional Neural Network (CNN), a Recurrent Neural Network (RNN), or a multimodal approach for classification.
+> >
+> > Given this information, we can proceed with designing and implementing the PDF classifier using either a CNN or an RNN, or explore the possibility of a multimodal approach combining both text and image features. Would you like to proceed with any specific approach, or do you need further assistance in deciding the best option for your task?
+
+
+
 ## Effective Prompts
 [<- Return to INDEX 0](#index-0)
+
 
 ### INDEX 7
 
