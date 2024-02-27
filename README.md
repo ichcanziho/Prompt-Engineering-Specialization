@@ -1,10 +1,10 @@
 # Prompt Engineering Specialization
 
-## PROGRESO GENERAL: ![](https://geps.dev/progress/3)
+## PROGRESO GENERAL: ![](https://geps.dev/progress/24)
 
 ## INDICE:
 
-- ![](https://geps.dev/progress/10) [1 Prompt Engineering for ChatGPT](1%20Prompt%20Engineering%20for%20ChatGPT)
+- ![](https://geps.dev/progress/75) [1 Prompt Engineering for ChatGPT](1%20Prompt%20Engineering%20for%20ChatGPT)
 - ![](https://geps.dev/progress/0) [2 ChatGPT Advanced Data Analysis](2%20ChatGPT%20Advanced%20Data%20Analysis)
 - ![](https://geps.dev/progress/0) [3 Trustworthy Generative AI](3%20Trustworthy%20Generative%20AI)
 

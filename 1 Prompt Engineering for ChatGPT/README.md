@@ -1830,35 +1830,402 @@ relevant_information:
 ### Game Play Pattern
 [<- Return to INDEX 8](#index-8)
 
+La utilización del "patrón de juego" con modelos de lenguaje grandes, como ChatGPT, ilustra un enfoque innovador para el aprendizaje y la mejora de habilidades a través de una interacción lúdica. Este enfoque no solo enriquece la experiencia del usuario con la IA, sino que también demuestra la versatilidad de estos modelos para adaptarse a roles dinámicos como el de maestro del juego, permitiendo generar contenido de juego basado en una amplia gama de conocimientos y entrenamiento previos. A continuación, destacamos algunas implicaciones clave de este enfoque y cómo puede ser aplicado efectivamente.
+
+#### Aplicaciones y Beneficios del Patrón de Juego
+![img.png](ims%2FC8%2Fimg.png)
+
+- **Estímulo del Aprendizaje**: La naturaleza interactiva y lúdica de este enfoque promueve un aprendizaje más profundo y retentiva de nuevos conocimientos al involucrar activamente al usuario en desafíos entretenidos y relevantes.
+
+- **Desarrollo de Habilidades de Ingeniería Rápida**: Al enfrentarse a tareas que requieren la creación de mensajes específicos para obtener resultados deseados, los usuarios practican y refuerzan sus habilidades de ingeniería rápida, adaptando sus indicaciones para cumplir con los criterios del juego.
+
+- **Generación de Contenido Dinámico**: Al actuar como maestro del juego, el modelo de lenguaje puede generar una variedad casi infinita de escenarios, tareas y desafíos basados en su amplia base de datos, asegurando una experiencia de juego fresca y estimulante.
+  
+#### Implementación Efectiva
+
+![img_1.png](ims%2FC8%2Fimg_1.png)
+
+1. **Definición Clara de Reglas y Objetivos**: La estructuración del juego debe comenzar con una definición clara del tema, las reglas y los objetivos deseados, orientando al modelo sobre cómo guiar el juego y evaluar las respuestas del usuario.
+
+2. **Inclusión de Ejemplos y Plantillas**: Proporcionar ejemplos específicos y estructuras de plantillas para el tipo de respuestas o resultados esperados puede ayudar al modelo a entender mejor los requisitos del juego y facilitar la generación de contenido adecuado.
+
+3. **Feedback Continuo**: Integrar mecanismos de retroalimentación dentro del juego, permitiendo al usuario entender cómo sus respuestas se alinean con las expectativas y dónde hay margen de mejora.
+
+#### Retos y Consideraciones
+
+![img_2.png](ims%2FC8%2Fimg_2.png)
+
+- **Complejidad del Razonamiento**: Algunas tareas pueden requerir niveles de razonamiento o conocimientos específicos que desafían las capacidades actuales de los modelos de lenguaje, lo que requiere ajustes en la dificultad de los desafíos propuestos.
+
+- **Variedad y Repetición**: Mantener un equilibrio entre la variedad de los desafíos y evitar la repetición excesiva de tareas similares es clave para asegurar una experiencia de juego atractiva y educativa.
+
+- **Evaluación de Respuestas**: Definir criterios claros y justos para la evaluación de las respuestas del usuario por parte del modelo puede ser desafiante, especialmente en tareas que admiten múltiples soluciones correctas.
+
+![img_3.png](ims%2FC8%2Fimg_3.png)
+
+El "patrón de juego" destaca el potencial de los modelos de lenguaje grandes para ir más allá de simples tareas de generación de texto, involucrándose en una interacción educativa y creativa con los usuarios. Este enfoque puede ser particularmente valioso en contextos educativos, de entrenamiento y entretenimiento, proporcionando una plataforma versátil para el desarrollo de habilidades críticas de pensamiento y resolución de problemas de manera lúdica y atractiva.
+
+
 ### Format of the Game Play Pattern
 [<- Return to INDEX 8](#index-8)
+
+Para utilizar este patrón, su pregunta debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Cree un juego para mí en torno a X O vamos a jugar a un juego X
+
+- Una o varias reglas fundamentales del juego
+
+Tendrá que sustituir "X" por un tema de juego apropiado, como "matemáticas" o "juego de exploración de cuevas para descubrir una lengua perdida". A continuación, tendrá que proporcionar las reglas del juego, como "descríbeme lo que hay en la cueva y dame una lista de acciones que puedo realizar" o "hazme preguntas relacionadas con las fracciones y aumenta mi puntuación cada vez que acierte una"
+
+**Ejemplos:**
+
+- Cree un juego de exploración de una cueva para que descubra una lengua perdida. Describa en qué parte de la cueva me encuentro y qué puedo hacer. Debo descubrir nuevas palabras y símbolos de la civilización perdida en cada zona de la cueva que visite. Cada zona debería tener también parte de una historia que utilice la lengua. Debería tener que reunir todas las palabras y símbolos para poder entender la historia. Hábleme de la primera zona y luego pregúnteme qué acción debo realizar. 
+
+- Cree para mí un juego de grupo que implique a DALL-E. El juego debe consistir en crear prompts que versen sobre un tema que usted enumere en cada ronda. Cada uno creará un prompt y generará una imagen con DALL-E. A continuación, la gente votará el mejor prompt en función de la imagen que genere. Al final de cada ronda, pregunte quién ganó la ronda y luego enumere la puntuación actual. Describa las reglas y luego enumere el primer tema. 
 
 ### Template Pattern
 [<- Return to INDEX 8](#index-8)
 
+El patrón de plantilla es una herramienta excepcional en la comunicación con modelos de lenguaje grandes como ChatGPT para lograr respuestas estructuradas y con contenido específico. Este enfoque permite a los usuarios establecer una serie de marcadores de posición y reglas dentro de una plantilla que el modelo luego rellena con información generada basándose en las indicaciones dadas. Esta metodología no sólo facilita el mantenimiento del formato deseado sino que además potencia la precisión y relevancia del contenido generado.
+
+#### Ventajas del Patrón de Plantilla:
+
+![img_4.png](ims%2FC8%2Fimg_4.png)
+
+1. **Estructuración y Formato**: Permite a los usuarios obtener respuestas en un formato predeterminado, haciedo más fácil la integración y el análisis de los datos generados.
+
+2. **Instrucciones Detalladas**: Al establecer marcadores de posición y reglas dentro de la plantilla, se guía al modelo de lenguaje para enfocarse en la generación de contenido específico, lo que aumenta la utilidad de la información recibida.
+
+3. **Flexibilidad y Personalización**: Brinda la oportunidad de personalizar las respuestas para satisfacer necesidades específicas, ya sea para la recolección de datos, la generación de texto estructurado, o para la creación de contenido educativo o recreativo.
+
+#### Implementación del Patrón de Plantilla:
+
+![img_5.png](ims%2FC8%2Fimg_5.png)
+
+- **Definir la Plantilla**: Las plantillas deben ser cuidadosamente diseñadas para incluir marcadores de posición específicos donde el modelo insertará información. La inclusión de indicaciones detalladas y reglas sobre cómo rellenar estos marcadores optimiza la calidad del resultado.
+
+- **Markdown y Comunicación Clara**: Usar Markdown y otros métodos de formateo dentro de la plantilla ayuda a clarificar cómo se quiere que aparezca el texto, mejorando la legibilidad y la coherencia de las respuestas.
+
+- **Iteración y Refinamiento**: La técnica de plantilla se beneficia de la iteración y refinamiento. Basándose en las respuestas iniciales del modelo, se pueden ajustar las plantillas para mejorar la precisidad y la relevancia de la información generada.
+
+#### Desafíos y Consideraciones:
+
+![img_6.png](ims%2FC8%2Fimg_6.png)
+
+- **Complejidad de la Plantilla**: La efectividad del patrón de plantilla puede variar según la complejidad de las instrucciones y la capacidad del modelo para interpretar y seguir estas reglas detalladamente.
+
+- **Calidad de las Respuestas**: Aunque el patrón de plantilla puede guiar el formato de las respuestas, la calidad y precisión del contenido aún dependen del conocimiento y capacidad de razonamiento del modelo de lenguaje.
+
+- **Revisión Humana Necesaria**: En contextos críticos o complejos, las respuestas generadas mediante el patrón de plantilla aún pueden requerir revisión humana para garantizar su precisión y adecuación.
+
+#### Conclusión:
+
+![img_7.png](ims%2FC8%2Fimg_7.png)
+
+El patrón de plantilla emerge como una estrategia poderosa para direccionar el potencial de los modelos de lenguaje grandes hacia la generación de respuestas estructuradas y enfocadas en objetivos específicos. Esta metodología combina la flexibilidad de los modelos de lenguaje con la precisión enfocada de las instrucciones basadas en plantillas, ofreciendo una variedad de aplicaciones en campos que van desde la generación de contenido automatizado hasta la educación y la investigación. La habilidad para personalizar y especificar el formato de salida maximiza la utilidad de los modelos de lenguaje, allanando el camino hacia aplicaciones de inteligencia artificial más sofisticadas y personalizadas.
+
 ### Format of the Template Pattern
 [<- Return to INDEX 8](#index-8)
+
+Para utilizar este patrón, su indicador debe hacer las siguientes declaraciones contextuales fundamentales:
+
+- Voy a proporcionar una plantilla para su salida 
+
+- X es mi marcador de posición para el contenido 
+
+- Intente encajar la salida en uno o varios de los marcadores de posición que enumero 
+
+- Por favor, conserve el formato y la plantilla general que le proporciono 
+
+- Esta es la plantilla Patrón con marcadores de posición
+
+> Tendrá que sustituir "X" por un marcador de posición adecuado, como "PALABRAS EN MAYÚSCULA" o "<COLOCADOR>". A continuación, deberá especificar un patrón para rellenar, como "Estimado <NOMBRE COMPLETO>" o "NOMBRE, TÍTULO, EMPRESA".
+
+**Ejemplos:**
+
+- Cree hoy para mí un entrenamiento de fuerza aleatorio con ejercicios complementarios. Voy a proporcionarle una plantilla para su salida . Las PALABRAS EN MAYÚSCULAS son mis marcadores de posición para el contenido. Intente encajar la salida en uno o más de los marcadores de posición que enumero. Por favor, conserve el formato y la plantilla general que le proporciono. Esta es la plantilla NOMBRE, REPETICIONES @ SERIES, GRUPOS MUSCULARES TRABAJADOS, ESCALA DE DIFICULTAD 1-5, NOTAS DE FORMA
+
+- Por favor, cree una lista de la compra para que cocine macarrones con queso desde cero, pan de ajo y salsa marinara desde cero. Voy a proporcionar una plantilla para su salida . <placeholder> son mis marcadores de posición para el contenido. Intente encajar la salida en uno o varios de los marcadores de posición que enumero. Por favor, conserve el formato y la plantilla general que le proporciono.   
+
+Esta es la plantilla   
+
+Pasillo < nombre del pasillo>: 
+
+< artículo necesario del pasillo>, < cantidad> (< plato(s) utilizado(s) en>
 
 ### Meta Language Creation Pattern
 [<- Return to INDEX 8](#index-8)
 
+La creación de un metalenguaje para interactuar con modelos de lenguaje grandes como ChatGPT representa una estrategia sofisticada y potencialmente revolucionaria para mejorar la comunicación y eficiencia de tareas complejas. Este enfoque no solo facilita la entrada de datos y comandos de manera más eficaz y condensada, sino que también establece un marco para estandarizar y precisar las interacciones con el modelo, algo vital en entornos profesionales y técnicos. A continuación, profundizaremos en las implicaciones y aplicaciones de este enfoque.
+
+#### Aplicaciones del Patrón de Creación de Metalenguaje:
+
+![img_8.png](ims%2FC8%2Fimg_8.png)
+
+1. **Automatización y Eficiencia**: La taquigrafía o metalenguaje personalizado puede optimizar significativamente la introducción de comandos y datos, permitiendo una automatización más efectiva de tareas repetitivas o complejas.
+
+2. **Comunicación Estandarizada**: En contextos profesionales, como la gestión de emergencias mencionada en el ejemplo, un lenguaje especializado desarrollado puede estandarizar la forma en que se comunica la información crítica, minimizando el riesgo de malentendidos.
+
+3. **Expansión de la Capacidad del Modelo**: Al enseñar al modelo de lenguaje un metalenguaje o taquigrafía, se expanden sus capacidades para interpretar y actuar en base a comandos especializados, abriendo nuevas posibilidades de aplicación que antes requerían instrucciones largas y detalladas.
+
+4. **Personalización de la Interacción**: Para cada usuario o entidad, se pueden crear metalenguajes únicos que se alineen con sus necesidades específicas, personalizando la experiencia de usuario y potenciando la utilidad del modelo de lenguaje.
+
+#### Implementación Práctica:
+
+![img_9.png](ims%2FC8%2Fimg_9.png)
+
+- **Definición Clara del Metalenguaje**: Un primer paso crucial es la definición clara y precisa de la notación abreviada o metalenguaje, incluyendo su gramática, sintaxis, y significado de sus símbolos o abreviaturas.
+
+- **Instrucción Detallada al Modelo**: Para que el modelo de lenguaje pueda interpretar correctamente el metalenguaje, es esencial proporcionar ejemplos detallados y contextos de uso, lo cual puede requerir varias iteraciones para afianzar el aprendizaje del modelo.
+
+- **Aplicación y Retroalimentación**: La utilización práctica del metalenguaje en interacciones reales con el modelo proporcionará oportunidades para evaluar su eficacia, recopilar retroalimentación, y realizar ajustes necesarios.
+
+#### Desafíos y Consideraciones:
+
+- **Curva de Aprendizaje**: La creación y adopción de un metalenguaje específico puede presentar una curva de aprendizaje tanto para los usuarios como para el modelo de lenguaje, especialmente si el lenguaje es complejo.
+
+- **Precisión y Ambigüedad**: A pesar de la eficiencia que proporciona el metalenguaje, es crucial asegurar que los comandos y datos sean interpretados con precisión por el modelo, minimizando la ambigüedad.
+
+- **Mantenimiento y Actualización**: A medida que evoluciona el modelo de lenguaje o las necesidades del usuario, puede ser necesario revisar y actualizar el metalenguaje para mantener su relevancia y eficacia.
+
+#### Conclusión:
+
+La creación y utilización de un metalenguaje para la interacción con modelos de lenguaje grandes abre un nuevo horizonte en la comunicación entre humanos y máquinas. Este enfoque promete no solo mejorar la eficiencia y precisión de las tareas realizadas por estos modelos, sino también personalizar y expandir sus aplicaciones en una multitud de dominios. Sin embargo, el éxito de esta estrategia dependerá de una cuidadosa planificación, instrucción detallada, y un proceso iterativo de mejora basado en la retroalimentación.
+
 ### Format of the Meta Language Creation Pattern
 [<- Return to INDEX 8](#index-8)
+
+Para utilizar este patrón, su mensaje debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Cuando digo X, quiero decir Y (o me gustaría que hiciera Y)
+
+Tendrá que sustituir "X" por una afirmación, símbolo, palabra, etc. adecuados. A continuación, tendrá que mayo esto a un significado, Y.
+
+**Ejemplos:**
+
+- Cuando digo "variaciones(<algo>)", quiero decir que me dé diez variaciones diferentes de <algo>.
+
+  - Uso: "variaciones(nombres de empresas para una empresa que vende servicios de software para ingeniería rápida)"
+
+  - Uso: "variaciones(un eslogan de marketing para pepinillos)"
+
+- Cuando digo Tarea X [Tarea Y], quiero decir que la Tarea X depende de que la Tarea Y se complete primero. 
+
+  - Uso: "Describa los pasos para construir una casa utilizando mi lenguaje de dependencia de tareas"
+
+  - Uso: "Proporcione una ordenación de los pasos: Hervir agua [Encender los fogones], Cocer pasta [Hervir agua], Hacer marinara [Encender los fogones], Encender los fogones [Ir a la cocina]"
 
 ### Recipe Pattern
 [<- Return to INDEX 8](#index-8)
 
+La aplicación del "**patrón de receta**" en la interacción con modelos de lenguaje grandes como ChatGPT presenta una estrategia altamente efectiva para estructurar la generación de respuestas y completar tareas complejas siguiendo un esquema determinado por el usuario. Este enfoque permite a los usuarios proporcionar un marco de tarea mientras dejan espacios ("huecos") para que el modelo aporte información adicional, creando así una solución completa. A continuación, exploramos más detalladamente cómo se puede aplicar este patrón y los beneficios que aporta.
+
+#### Aplicación del Patrón de Receta:
+
+![img_10.png](ims%2FC8%2Fimg_10.png)
+
+- **Definición del Marco**: El usuario establece un marco básico de la tarea o problema, incluidos los elementos conocidos y las áreas en las que se requiere la ayuda del modelo para completar la información.
+
+- **Espacios por Rellenar**: Los "huecos" o espacios para llenar se dejan intencionalmente en la solicitud al modelo, señalando las áreas en las que se necesita su contribución. Estos pueden ser tan específicos o tan abiertos como el usuario decida.
+
+- **Uso de Metalenguaje**: La notación especial, como la utilización de símbolos para indicar los espacios por rellenar (por ejemplo, puntos suspensivos), proporciona al modelo pistas claras sobre dónde y cómo debe aportar su conocimiento.
+
+#### Beneficios del Patrón de Receta:
+
+![img_11.png](ims%2FC8%2Fimg_11.png)
+
+1. **Personalización de las Respuestas**: Este patrón permite una personalización detallada de las respuestas del modelo, asegurándose de que se ajusten a las exigencias específicas del usuario y al contexto de la tarea.
+
+2. **Complementación del Conocimiento del Usuario**: Al rellenar los "huecos", el modelo puede complementar áreas de conocimiento que el usuario desconoce o sobre las cuales necesita más información, haciéndolo un complemento efectivo para la exploración o el aprendizaje.
+
+3. **Optimización del Razonamiento del Modelo**: Facilita el enfoque del modelo hacia los detalles relevantes de la tarea, potenciando un uso más eficiente de su capacidad de razonamiento y generación de texto.
+
+#### Desafíos y Consideraciones:
+
+![img_12.png](ims%2FC8%2Fimg_12.png)
+
+- **Claro Definición de los "Huecos"**: Es crucial definir claramente los espacios por rellenar y proporcionar suficiente contexto para que el modelo pueda generar respuestas adecuadas.
+
+- **Limitaciones del Modelo**: Aunque el patrón de receta puede guiar al modelo hacia áreas específicas de contribución, las respuestas aún están limitadas por el conocimiento preexistente del modelo y su capacidad para interpretar correctamente las indicaciones.
+
+- **Revisión y Ajuste**: Las respuestas generadas mediante este patrón pueden requerir revisión y ajustes por parte del usuario para asegurar su precisión y relevancia.
+
+#### Conclusión:
+
+El "**patrón de receta**" es una herramienta poderosa para dirigir la interacción con modelos de lenguaje grandes, permitiendo a los usuarios estructurar sus peticiones de manera que obtengan respuestas personalizadas y completas. Al combinar el conocimiento del usuario con la capacidad de generación y razonamiento del modelo, este enfoque abre nuevas posibilidades para resolver problemas complejos y adquirir conocimientos en una amplia gama de dominios.
+
 ### Format of the Recipe Pattern
 [<- Return to INDEX 8](#index-8)
+
+Para utilizar este patrón, su pregunta debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Me gustaría conseguir X 
+
+- Sé que necesito realizar los pasos A,B,C 
+
+- Proporcióneme una secuencia completa de pasos 
+
+- Rellene cualquier paso que falte 
+
+- (Opcional) Identifique cualquier paso innecesario
+
+> Tendrá que sustituir "X" por una tarea adecuada. A continuación, deberá especificar los pasos A, B, C que sabe que deben formar parte de la receta / plan completo.
+
+**Ejemplos:**
+
+- Me gustaría comprar una casa. Sé que necesito realizar los pasos hacer una oferta y cerrar la compra de la casa. Proporcióneme una secuencia completa de pasos. Rellene los pasos que falten.
+
+- Me gustaría ir en coche a Nueva York desde Nashville. Sé que quiero pasar por Asheville, NC, de camino y que no quiero conducir más de 300 millas al día. Proporcióneme una secuencia completa de pasos. Rellene los pasos que falten.
 
 ### Alternative Approaches Pattern
 [<- Return to INDEX 8](#index-8)
 
+El patrón de enfoques alternativos destaca por su utilidad al explorar distintas soluciones a un problema mediante la inteligencia artificial. Esta estrategia refleja la capacidad de los grandes modelos lingüísticos para simular una "lluvia de ideas", donde varias opciones se presentan y analizan. Tal método no solo enriquece el proceso creativo y de solución de problemas, sino que también proporciona una estructura para examinar y comparar estas opciones de forma sistemática.
+
+#### Estrategias Implementadas:
+
+![img_13.png](ims%2FC8%2Fimg_13.png)
+
+1. **Evaluación de Opciones**: La comparación de enfoques alternativos permite una evaluación más informada y ponderada de las posibles soluciones. Esto implica mirar las ventajas y desventajas de cada opción y cómo se ajustan a los requisitos o limitaciones específicas del problema en cuestión.
+
+2. **Simulación de Conversaciones**: Mediante la simulación de diálogos donde el modelo actúa como un evaluador o un ideador, se pueden explorar los méritos y las limitaciones de distintas soluciones en un formato interactivo y atractivo.
+
+    ![img_14.png](ims%2FC8%2Fimg_14.png)
+
+    ![img_15.png](ims%2FC8%2Fimg_15.png)   
+
+3. **Autoevaluación y Retroalimentación**: Invitar al modelo a evaluar la efectividad de sus propias sugerencias o las aportadas por otros fomenta un ciclo de retroalimentación que puede llevar a la mejora continua de las propuestas.
+
+#### Aplicaciones y Beneficios:
+
+
+
+- **Refinamiento de Soluciones**: Al comparar diferentes estrategias, se pueden identificar los enfoques más prometedores y refinarlos aún más para adaptarse mejor a las necesidades del problema.
+
+    ![img_16.png](ims%2FC8%2Fimg_16.png)
+
+- **Aprendizaje y Descubrimiento**: Este proceso de evaluación puede revelar insights no anticipados sobre el problema, incluyendo aspectos ocultos o implicaciones de ciertas soluciones.
+
+    ![img_17.png](ims%2FC8%2Fimg_17.png)
+
+- **Innovación**: La generación y análisis de múltiples opciones pueden dar lugar a soluciones creativas y fuera de lo tradicional, potencialmente llevando a innovaciones en la forma de abordar ciertos desafíos.
+
+    ![img_18.png](ims%2FC8%2Fimg_18.png)
+
+#### Desafíos y Consideraciones:
+
+- **Calidad vs. Cantidad**: Mientras más opciones se generen, más importante será tener mecanismos eficaces para filtrar y priorizar aquellas que son viables y valiosas.
+
+    ![img_19.png](ims%2FC8%2Fimg_19.png)
+
+- **Criterios de Evaluación**: Definir criterios claros y objetivos de evaluación es crucial para analizar efectivamente las distintas soluciones propuestas.
+
+    
+
+- **Comprender Limitaciones del Modelo**: A pesar de su impresionante capacidad, los modelos de lenguaje grandes tienen limitaciones en su comprensión y razonamiento. Comprender estas limitaciones es clave para interpretar adecuadamente sus evaluaciones y sugerencias.
+
+#### Conclusión:
+
+El patrón de enfoques alternativos muestra cómo se pueden explotar las capacidades de los modelos de lenguaje grandes para fomentar la creatividad, la exploración y el análisis detallado de soluciones en un amplio espectro de problemas. Al aprovechar esta estrategia, se pueden descubrir nuevas posibilidades y optimizar las soluciones para enfrentar desafíos complejos de manera efectiva. Además, el uso iterativo y la autoevaluación promulgan un ciclo de mejora continua, vital para el progreso y la innovación en la resolución de problemas.
+
 ### Format of the Alternative Approaches Pattern
 [<- Return to INDEX 8](#index-8)
 
+Para utilizar este patrón, su pregunta debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Si hay formas alternativas de realizar una tarea X que le encomiendo, enumere los mejores enfoques alternativos 
+
+- (Opcional) compare/contraste los pros y los contras de cada enfoque 
+
+- (Optativo) incluya la forma original que le pedí 
+
+- (Opcional) pregúnteme qué enfoque me gustaría utilizar
+
+> Deberá sustituir la "X" por una tarea adecuada.
+
+**Ejemplos:**
+
+- Para cada indicación que le dé, Si hay formas alternativas de redactar una indicación que le dé, enumere las mejores redacciones alternativas . Compare/contraste los pros y los contras de cada redacción. 
+
+- Para cualquier cosa que le pida que escriba, determine el problema subyacente que intento resolver y cómo intento resolverlo. Enumere al menos un planteamiento alternativo para resolver el problema y compárelo/contrástelo con el planteamiento original implícito en la petición que le hago.
+
 ### Applying Prompt Patterns II
 [<- Return to INDEX 8](#index-8)
+
+1. Question 1
+Choose one of the patterns from this module and write a sample prompt using the pattern. Provide the prompt and output of using the prompt in ChatGPT or another large language model. 
+
+    > > Prompt: I'll give you a pattern for your output. The uppercase words are my markers. Try to replace the markers with the information. Please keep the format of the pattern. This is the pattern with the markers.
+    > >
+    > > Hello WORKERNAME, it's a pleasure to have you in our company COMPANYNAME. We will be happy to have your presence this STARTING_DATE to start your introduction.
+    > >
+    > > WORKERNAME: Gabriel Landa 
+    > >
+    > > COMPANYNAME: Interesse
+    > >    
+    > > STARTING_DATE: April's 10th
+    >
+    >> **GPT**: Hello Gabriel Landa, it's a pleasure to have you in our company Interesse. We will be happy to have your presence this April's 10th to start your introduction.
+    >
+    >> **Prompt**: Now please create 5 more examples using the pattern.
+    > 
+    >> GPT: Hello John Smith, it's a pleasure to have you in our company XYZ Corporation. We will be happy to have your presence this March 15th to start your introduction.
+    >>
+    >> Hello Emily Johnson, it's a pleasure to have you in our company Acme Innovations. We will be happy to have your presence this June 22nd to start your introduction.
+    >>
+    >>Hello David Martinez, it's a pleasure to have you in our company Bright Solutions. We will be happy to have your presence this September 5th to start your introduction.
+    >>
+    >>Hello Sarah Brown, it's a pleasure to have you in our company TechGenius. We will be happy to have your presence this November 8th to start your introduction.
+    >>
+    >>Hello Michael Johnson, it's a pleasure to have you in our company Visionary Ventures. We will be happy to have your presence this January 18th to start your introduction.
+
+2. Choose another one of the patterns from this module and write a sample prompt using the pattern. This prompt must be applied to some information that you provide in the prompt before the pattern. Provide the prompt and output of using the prompt in ChatGPT or another large language model. 
+
+    > > **Prompt**: From now on, if there are alternative ways to accomplish the same thing, list the best alternate approaches. Compare and contrast the alternatives and ask me which one I want to use.
+    >
+    > **GPT**: Absolutely, I'll keep that in mind for future responses. If you have any questions or need assistance with specific tasks, feel free to ask, and I'll provide you with alternative approaches along with their comparisons.
+    >
+    > > **Prompt**: First, I will share with you some fun facts about movies:
+    >
+    > Here are some behind-the-scenes facts about some of the most memorable moments in movie history:
+    >
+    > 1. Ke Huy Quan, who has an impressive martial arts background, did most of his own stunts for the wild fanny pack fight scene in Everything Everywhere All at Once.
+    > ![Ke Huy Quan](A24 / Via youtube.com)
+    >
+    >    2. In The Silence of the Lambs, Jodie Foster said that Anthony Hopkins improvised Hannibal Lecter's mocking of Clarice's accent — which was Foster's own accent.
+    >    ![Jodie Foster and Anthony Hopkins](Orion Pictures / Via youtube.com)
+    >
+    >    3. The bees coming out of Candyman’s mouth and chest in Candyman are real, and apparently, Tony Todd was paid $1,000 for each sting he received.
+    >    ![Tony Todd](TriStar Pictures / Via youtube.com)
+    >
+    >    4. In E.T. the Extra-Terrestrial, Steven Spielberg enlisted real doctors from USC Medical Center to play the doctors who try to save E.T., because Spielberg "felt that actors talking about technical medical matters didn’t seem natural."
+    >    ![Steven Spielberg](Universal Pictures / Via youtube.com)
+    >
+    >    5. According to Allison Williams, the scene in Get Out where her character Rose has her Froot Loops and milk separately was added last minute while they were already on set filming.
+    >    ![Allison Williams](A24 / Via tenor.com)
+    >
+    >    6. The look of pain on Billy's face in Scream is very, very real. It's explained in the DVD commentary that Skeet Ulrich had open-heart surgery when he was a kid and that, while filming the scene when Sidney attacks Billy with an umbrella, the umbrella missed the protective vest Ulrich was wearing and hit him right in the old surgery wound.
+    >    ![Skeet Ulrich](Dimension Films / Via youtube.com)
+    >
+    >    7. There's a deleted scene from Love Actually that shows that Sam was originally written to be a "brilliant gymnast" in the film. I think we can all be honest here about how weird of a subplot that would have been.
+    >    ![Deleted Scene from Love Actually](Universal Pictures / Via youtube.com)
+    >
+    >    8. In Monty Python and the Holy Grail, Eric Idle can be seen biting his scythe to stop himself from laughing when John Cleese chose to pause for an amazingly long time when answering Sir Bedivere's question.
+    >    ![Eric Idle and John Cleese](EMI Films / Via youtube.com)
+    >
+    >    9. In Return of the Jedi, Nien Nunb's "alien language" is actually Kikuyu, which is spoken in parts of Kenya.
+    >    ![Return of the Jedi](20th Century Fox / Via youtube.com)
+    >
+    >    10. Alan Tudyk improvised the slap K-2SO gives Cassian Andor in Rogue One, as well as the line that follows: "And there’s a fresh one if you mouth off again." You can see Diego Luna, who plays Andor, covering his face to hide his laughter.
+    >
+    >>  **GPT**: These are fascinating behind-the-scenes facts from various movies! Now, if you're interested in sharing these fun facts with others or compiling them for future reference, here are a couple of alternate approaches we could take:
+    >>
+    >> - Create a Social Media Post: You could create a visually appealing post on platforms like Instagram, Twitter, or Facebook to share these facts with your friends or followers. You could include images or GIFs from the movies mentioned along with each fact to make the post more engaging.
+    >>
+    >> - Compile a Blog Post or Article: Another option is to compile these facts into a blog post or article. This would allow for more detailed explanations of each fact and could include additional insights or trivia. You could add links to relevant videos or sources for readers who want to learn more.
+    >>
+    >> Would you like to proceed with creating a social media post or compiling a blog post? Or do you have another preference in mind?
+
 
 ## Prompt Patterns Catalog 2
 [<- Return to INDEX 0](#index-0)
