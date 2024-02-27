@@ -1522,29 +1522,290 @@ Write a prompt and test it with ChatGPT or another large language model that use
 ### Few-shot Examples
 [<- Return to INDEX 7](#index-7)
 
+La técnica de "indicaciones de pocos pasos" o "few-shot learning" es una estrategia innovadora en la interacción con modelos de lenguaje grandes, como ChatGPT, que permite enseñar al modelo a seguir una secuencia específica o un patrón de respuestas a través de ejemplos limitados. Esta aproximación destaca por su capacidad para instruir al modelo sin necesidad de una explicación extendida o definiciones complicadas, basándose en la competencia inherente del modelo para discernir y replicar patrones a partir de la información proporcionada.
+
+#### Aplicación y Utilidades de las Indicaciones de Pocos Pasos
+
+![img.png](ims%2FC7%2Fimg.png)
+
+- **Análisis de Sentimientos**: Permite al modelo clasificar comentarios o reseñas según sean positivos, negativos o neutrales, adaptando su respuesta con base en ejemplos previamente mostrados.
+  
+- **Respuestas Customizadas**: Facilita la creación de respuestas en formatos específicos, condicionando al modelo a generar resultados que sigan una estructura determinada (por ejemplo, listas ordenadas, respuestas directas a preguntas definidas, etc.)
+
+- **Educación**: Se puede utilizar para impartir conocimientos o instrucciones de forma que el modelo haga preguntas educativas basadas en el nivel de complejidad mostrado en los ejemplos, fomentando un aprendizaje interactivo.
+
+#### Ventajas de las Indicaciones de Pocos Pasos
+
+![img_1.png](ims%2FC7%2Fimg_1.png)
+
+- **Rapidez**: Permite que el modelo aprenda nuevas tareas con solo unos pocos ejemplos, minimizando la necesidad de grandes volúmenes de datos.
+  
+- **Flexibilidad**: Ofrece la posibilidad de adaptar el comportamiento del modelo a requsitos específicos sin reentrenamiento, lo que es especialmente valioso en aplicaciones donde el contexto o las necesidades cambian con frecuencia.
+
+- **Eficiencia**: Reduce la carga de tener que programar o especificar al detalle el comportamiento deseado del modelo, utilizando la inteligencia inherente del modelo para inferir patrones y respuestas adecuadas.
+
+#### Estrategias para Optimizar su Uso
+![img_2.png](ims%2FC7%2Fimg_2.png)
+- **Claridad en los Ejemplos**: Asegurarse de que los ejemplos proporcionados sean claros, concisos y representativos de la tarea a enseñar.
+  
+- **Variedad y Balance**: Incluir ejemplos que cubran distintas posibilidades o categorías dentro de la tarea, para fomentar una comprensión más equilibrada y completa por parte del modelo.
+
+- **Iteración y Ajuste**: Tras proporcionar los ejemplos iniciales, es útil ajustar basándose en la respuesta del modelo, refinando o expandiendo los ejemplos según sea necesario para alcanzar el comportamiento deseado.
+
+#### Conclusión
+
+Las indicaciones de pocos pasos representan un método poderoso y eficaz para personalizar y guiar el comportamiento de modelos de lenguaje grandes. A través de ejemplos simples pero estratégicamente elegidos, los usuarios pueden enseñar al modelo a realizar una amplia variedad de tareas, desde análisis de texto hasta la generación de contenido específico para audiencias particulares. Esta técnica subraya el enorme potencial de la inteligencia artificial para adaptarse y aprender rápidamente de la información que recibe, abriendo nuevas posibilidades en la interacción humana con sistemas computacionales avanzados.
+
 ### Few-shot Examples for Actions
 [<- Return to INDEX 7](#index-7)
+
+La técnica de "ejemplos de pocos pasos" abre un campo vasto de posibilidades para enseñar y guiar a los modelos de lenguaje grandes hacia la realización de tareas específicas o la adopción de patrones de respuesta ajustados a situaciones concretas. Esto no se limita solo al análisis de sentimientos o a la planificación de acciones, sino que extiende su aplicabilidad a variados dominios y contextos, incentivando a los usuarios a explorar formas creativas y estratégicas de interacción con la inteligencia artificial. A continuación, se destaca la flexibilidad y el potencial de estos modelos para adaptarse a distintos marcos de trabajo y necesidades de aprendizaje o decisión.
+
+#### Ampliando la Utilidad de los Ejemplos de Pocos Pasos
+
+![img_3.png](ims%2FC7%2Fimg_3.png)
+
+- **Diversificación de Aplicaciones**: El uso de ejemplos de pocos pasos no está confinado a un tipo de tarea específico. Se puede adaptar para enseñar a los modelos a responder frente a escenarios de conducción, decisiones de negocio, recomendaciones personalizadas, diagnóstico médico, y más.
+
+- **Generación de Prototipos Rápidos**: Ofrece una vía rápida para prototipar sistemas de toma de decisiones, donde el modelo puede sugerir acciones basadas en la descripción de situaciones, aprendiendo a través de ejemplos en lugar de instrucciones detalladas.
+
+- **Interacciones Enriquecidas**: La capacidad de los modelos para hacer preguntas adicionales basadas en ejemplos anteriores abre la puerta a interacciones más ricas y dialécticas, donde el modelo no solo provee respuestas sino que busca activamente entender mejor el contexto o la problemática presentada.
+
+#### Potencial para la Enseñanza de Patrones Complejos
+
+![img_4.png](ims%2FC7%2Fimg_4.png)
+
+- **Adaptabilidad**: Los modelos pueden ajustar sus respuestas y estrategias basadas en las necesidades explicitadas a través de los ejemplos proporcionados, mostrando una notable capacidad de adaptación.
+
+- **Creación de Contenido Educativo**: Posibilita la generación de material educativo ajustado a distintos niveles de comprensión o grupos de edad, dinamizando el proceso de enseñanza-aprendizaje.
+
+- **Entrenamiento Interactivo**: Ofrece una plataforma para el entrenamiento interactivo, donde los modelos pueden guiar a los usuarios a través de escenarios prácticos, solicitando decisiones o acciones basadas en situaciones modeladas mediante ejemplos previos.
+
+#### Estrategias para Potenciar su Efectividad
+
+- **Curación de Ejemplos**: Seleccionar y curar cuidadosamente los ejemplos iniciales es crucial, ya que establecerán las bases sobre las cuales el modelo generalizará y construirá futuras respuestas.
+
+- **Feedback Iterativo**: Incorporar un proceso de feedback donde se ajusten y refinan los ejemplos basados en las respuestas del modelo puede ayudar a alinear más estrechamente el aprendizaje automático con los objetivos deseados.
+
+- **Exploración Creativa**: Animar a explorar usos innovadores y no convencionales de esta técnica puede revelar nuevas formas de solucionar problemas o diseñar interacciones usuario-modelo más efectivas y gratificantes.
+
+La técnica de ejemplos de pocos pasos destaca por su capacidad para simplificar la enseñanza de comportamientos complejos a modelos de lenguaje grandes, sirviendo como una herramienta poderosa para la personalización de la inteligencia artificial. Esta flexibilidad ilustra no solo la avanzada capacidad de aprendizaje de estos modelos sino también su potencial para ser moldeados y adaptados a las necesidades y creatividad de los usuarios, expandiendo el horizonte de lo que es posible lograr mediante la colaboración entre humanos y máquinas.
 
 ### Few-Shot Examples with Intermediate Steps
 [<- Return to INDEX 7](#index-7)
 
+La estrategia de proporcionar ejemplos en fases, o el uso de indicaciones detalladas que incluyen pasos intermedios en la solución de problemas, destaca el increíble potencial de los modelos de lenguaje grandes para más que simplemente responder preguntas o ejecutar acciones directas. Esta metodología permite implementar una especie de "razonamiento secuencial" en el modelo, donde puede anticipar acciones consecutivas basadas en las condiciones dadas y, más importante, adaptar estas acciones a situaciones nuevas y complejas presentadas por el usuario.
+
+#### Implicaciones de Utilizar Ejemplos en Fases
+
+![img_4.png](ims%2FC7%2Fimg_4.png)
+
+1. **Capacidad de Planificación**: Al enseñar al modelo mediante ejemplos que incluyen secuencias de pasos, se le facilita "aprender" a planificar, anticipar posibles complicaciones y proponer soluciones iterativas hasta alcanzar el objetivo final.
+
+2. **Resolución de Problemas Complejos**: Esta técnica amplía la utilidad de los modelos más allá de tareas simples, permitiéndoles abordar problemas que requieran una serie de acciones interconectadas, lo que enriquece enormemente su aplicabilidad en el mundo real.
+
+3. **Enriquecimiento de la Generación de Contenido**: Al poder detallar y seguir una secuencia de acciones, el modelo se vuelve una herramienta aún más poderosa para la generación de contenido, como guiones de escenarios, planes de acción detallados y narrativas de solución de problemas.
+
+#### Estrategias para la Efectividad de la Técnica
+
+![img_5.png](ims%2FC7%2Fimg_5.png)
+
+- **Claridad y Contexto en los Ejemplos**: Los ejemplos deben ser claros y proporcionar suficiente contexto para que el modelo comprenda no solo la acción inmediata, sino también las posibles consecuencias de esas acciones.
+
+- **Balance entre Detalle y Flexibilidad**: Es importante proporcionar suficientes detalles en los ejemplos para guiar al modelo, pero sin restringirlo innecesariamente, permitiendo que use su "creatividad" para adaptar las soluciones.
+
+- **Iteración y Refinamiento**: Como cualquier enfoque de enseñanza, puede ser necesario iterar y refinar los ejemplos basándose en las respuestas del modelo para asegurar que está aprendiendo el patrón deseado correctamente.
+
+#### Aplicaciones Prácticas y Potencial
+
+![img_6.png](ims%2FC7%2Fimg_6.png)
+
+La capacidad de los modelos de lenguaje grandes para seguir secuencias de acciones detalladas abre la puerta a nuevas aplicaciones en campos como la inteligencia artificial en videojuegos, donde se requieren comportamientos NPC (Non-Player Character) complejos, la simulación de situaciones de crisis para entrenamiento en toma de decisiones, y la automatización de procesos en negocios que requieren pasos secuenciales claros y adaptativos. A largo plazo, la habilidad de planificar y adaptarse a secuencias de acciones puede llevar a desarrollos significativos en el campo de la robótica y los vehículos autónomos.
+
+#### Conclusión
+
+La implementación de indicaciones que incluyen pasos intermedios expande enormemente el poder y la flexibilidad de los modelos de lenguaje grandes, permitiéndoles funcionar no solo como generadores de contenido, sino como compañeros casi "cognitivos" capaces de razonar a través de secuencias de eventos. Este enfoque no solo demuestra la sofisticación de los modelos actuales, sino que también resalta el potencial futuro para su evolución hacia herramientas aún más integradas y capaces en nuestra vida diaria y procesos de trabajo.
+
 ### Writing Effective Few-Shot Examples
 [<- Return to INDEX 7](#index-7)
+
+La creación de indicaciones efectivas para modelos de lenguaje grandes, especialmente al utilizar el enfoque de "aprendizaje de pocos pasos", requiere una consideración meticulosa del contenido, la claridad y el contexto. Los ejemplos proporcionados deben ser lo suficientemente representativos y detallados para guiar al modelo hacia la comprensión y generación de respuestas apropiadas. A continuación, desglosamos las estrategias y reflexiones clave para optimizar este proceso:
+
+![img_7.png](ims%2FC7%2Fimg_7.png)
+
+#### Consideraciones Claves para Mejorar las Indicaciones
+
+![img_8.png](ims%2FC7%2Fimg_8.png)
+
+1.  **Claridad en los Prefijos**: Cada entrada y salida debe estar claramente diferenciada y etiquetada, lo que ayuda al modelo a distinguir entre las partes de la indicación y genera respuestas más precisas.
+
+2.  **Contexto y Detalle en los Ejemplos**: Proporcionar suficiente contexto y detalles en los ejemplos es crucial para que el modelo comprenda no solo la acción deseada sino también la lógica subyacente o el razonamiento detrás de esta acción.
+
+3.  **Uniformidad Temática**: Asegurarse de que los ejemplos mantengan una coherencia temática y no desvíen el enfoque de la tarea principal, evitando confusiones en el modelo sobre el resultado esperado.
+
+4.  **Equilibrio entre Ejemplos y Directrices Explícitas**: Considerar si la tarea que se quiere enseñar se realiza mejor a través de ejemplos representativos o si necesita ser acompañada por explicaciones e instrucciones más directas para contextualizar la información.
+
+5.  **Evitación de Ambigüedad**: Reducir la ambigüedad tanto en los ejemplos proporcionados como en la nueva entrada sobre la que el modelo debe razonar. Si la información necesaria para decidir entre categorías no está presente, el modelo puede generar una respuesta inadecuada o arbitraria.
+
+#### Aplicaciones Potenciales y Creativas
+
+![img_9.png](ims%2FC7%2Fimg_9.png)
+
+La utilización cuidadosa de ejemplos en fases para enseñar procesos más complejos y secuenciales a modelos de lenguaje abre vías para aplicaciones innovadoras y creativas, como:
+
+1. **Simulación de Escenarios Múltiples**: Crear situaciones simuladas donde el modelo debe navegar a través de una serie de decisiones basadas en desafíos progresivos presentados.
+
+2. **Creación de Tutoriales y Procesos de Aprendizaje**: Desarrollar guías paso a paso o tutoriales en ámbitos especializados, donde cada paso depende del anterior.
+
+3. **Entrenamiento en Toma de Decisiones**: Utilizar el modelo para practicar la toma de decisiones en contextos complejos, proporcionando un análisis detallado de cómo se llega a cada decisión y qué factores se consideran.
+
+#### Reflexión Final
+
+![img_10.png](ims%2FC7%2Fimg_10.png)
+
+La creación de ejemplos eficaces para instruir a modelos de lenguaje grandes sobre cómo abordar tareas complejas requiere un equilibrio entre claridad, contexto y detallismo. Entender y aplicar estos principios no solo mejorará la calidad de las respuestas del modelo, sino que también ampliará el horizonte de lo que estos modelos pueden aprender y cómo se les puede enseñar. Esto, a su vez, promueve una mayor innovación en el uso de la inteligencia artificial para la resolución de problemas y la generación de conocimientos.
 
 ### Chain of Thought Prompting
 [<- Return to INDEX 7](#index-7)
 
+La técnica de **incitación en cadena de pensamientos** es una estrategia avanzada para interactuar con modelos de lenguaje grandes, como ChatGPT, que se basa en la idea de descomponer el proceso de razonamiento en pasos secuenciales, conducir al modelo a través de una secuencia lógica de pensamientos antes de llegar a una conclusión. Esta aproximación invita al modelo a "mostrar su trabajo", argumentando su razonamiento de forma explícita, lo cual puede conducir a respuestas más precisas y justificadas.
+
+#### Importancia de Mostrar el Trabajo:
+
+![img_11.png](ims%2FC7%2Fimg_11.png)
+
+- **Mejora de la Calidad de Respuestas**: La explicación detallada del razonamiento puede ayudar al modelo a generar respuestas más acertadas, pues alinea el proceso deductivo del modelo con el pensamiento lógico secuencial esperado por el usuario.
+
+- **Facilitación de la Comprensión**: Al animar al modelo a desglosar su razonamiento, se facilita al usuario la comprensión de cómo llegó el modelo a una determinada respuesta, aumentando la transparencia y la confianza en los resultados proporcionados.
+
+- **Refinamiento Iterativo**: Similar a la técnica artística o científica de refinación progresiva, pedir al modelo que exponga su razonamiento permite a los usuarios identificar y corregir premisas incorrectas o pasos lógicos erróneos en iteraciones sucesivas de la conversación.
+
+#### Ejemplo de Aplicación: Incitación en Cadena de Pensamientos
+
+![img_12.png](ims%2FC7%2Fimg_12.png)
+
+**Sin Desglose de Pensamiento**:
+- Pregunta: "¿Hay algo en el suelo en una nave espacial sin gravedad si tiro una taza con una aguja adentro?" 
+- Respuesta Inicial Sin Cadenas de Pensamiento: "Sí, ya que tiraste la taza al suelo".
+  
+**Con Desglose de Pensamiento**:
+- Pregunta mejor formulada con incitación al razonamiento: "En ausencia de gravedad, al mover un objeto, ¿termina en el 'suelo' como en la Tierra?"
+- Argumentación: "En un entorno sin gravedad, los objetos no caen al 'suelo' como en la Tierra debido a la falta de atracción gravitatoria. Por lo tanto, aunque se aplique fuerza, la taza y la aguja flotarán o se moverán según se les aplique fuerza, no se 'tirarán al suelo'".
+- Respuesta Mejorada: "No, en ausencia de gravedad, no hay un 'suelo' donde los objetos terminen; simplemente flotarán o se moverán en la dirección de la fuerza aplicada".
+
+#### Estrategias para Implementar Incitaciones en Cadena de Pensamientos:
+
+![img_13.png](ims%2FC7%2Fimg_13.png)
+
+1. **Definir Claramente el Problema**: Comenzar con una descripción clara y precisa de la situación o el problema en cuestión.
+
+2. **Descomposición Lógica**: Descomponer el problema en etapas lógicas o preguntas más pequeñas que guíen al modelo a través del razonamiento necesario para llegar a la conclusión.
+
+3. **Solicitar Explicaciones**: Pedir explícitamente al modelo que exponga su proceso de pensamiento paso a paso antes de proporcionar la conclusión final.
+
+4. **Proporcionar Ejemplos**: Usar ejemplos claros de razonamiento desglosado como incitaciones para entrenar al modelo en la técnica deseada.
+
+5. **Retroalimentación Constructiva**: Ofrecer al modelo retroalimentación sobre la precisión y la lógica de su razonamiento para refinar las interacciones futuras.
+
+Adoptar un enfoque conversacional, que enfatiza la cadena de pensamientos, no solo enriquece la interacción con modelos de lenguaje grande, sino que también mejora significativamente la capacidad de estos modelos para proporcionar respuestas bien razonadas y contextualmente relevantes, abriendo nuevas vías para su aplicación efectiva en educación, investigación, y más allá.
+
 ### Learn More About Chain of Thought Prompting
 [<- Return to INDEX 7](#index-7)
+
+El documento "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models" explora cómo la generación de una cadena de pensamiento, una serie de pasos de razonamiento intermedios, mejora significativamente la capacidad de los grandes modelos de lenguaje para realizar tareas complejas de razonamiento. Mediante experimentos con tres grandes modelos de lenguaje, demuestra que el método de prompting de cadena de pensamiento mejora el desempeño en tareas de aritmética, razonamiento de sentido común y razonamiento simbólico. Un hallazgo clave es que, por ejemplo, al utilizar este método con PaLM 540B y solo ocho ejemplos de cadena de pensamiento, se logra una precisión sin precedentes en el benchmark GSM8K de problemas matemáticos, superando incluso a GPT-3 afinado específicamente para esta tarea.
+
+> Archivo PDF: https://arxiv.org/pdf/2201.11903.pdf
+
 
 ### ReAct Prompting
 [<- Return to INDEX 7](#index-7)
 
+La perspectiva de utilizar modelos de lenguaje grandes como ChatGPT no solo para generar texto, sino como interfaz para coordinar y ejecutar tareas a través de la integración con otras herramientas y fuentes de datos externas, transforma radicalmente el potencial de la inteligencia artificial en nuestra interacción cotidiana con la tecnología. Este enfoque, conocido como React para fines de este análisis, facilita la automatización de procesos y la extensión de las capacidades de estos modelos más allá de su base de entrenamiento original.
+
+#### Implementación de React en Modelos de Lenguaje Grandes
+
+![img_14.png](ims%2FC7%2Fimg_14.png)
+
+1. **Expansión de Capacidades**: Permite que el modelo de lenguaje no solo se base en su vasto conocimiento previo al entrenamiento sino que también acceda a información actualizada y realice acciones complejas utilizando herramientas externas.
+
+2. **Instrucciones Detalladas y Contextualizadas**: Esencial para guiar al modelo en el proceso de cómo interactuar con estas herramientas, qué información buscar, cómo interpretarla y cómo reintegrar esa información en el contexto de la tarea en curso.
+
+3. **Automatización de Tareas**: Mediante la especificación de pasos detallados y ejemplos de cómo se debe realizar una tarea dada, se prepara al modelo para ejecutar secuencias de acciones que normalmente requerirían la intervención humana directa o el uso de software específico.
+
+#### Ejemplo de Ejecución
+
+![img_15.png](ims%2FC7%2Fimg_15.png)
+
+Tomando el caso del cálculo de horarios para una carrera de BMX, la instrucción detallada permite al modelo entender el proceso lógico para determinar la hora de llegada necesaria, involucrando acciones como:
+- Utilizar búsquedas en internet para encontras horarios específicos de eventos.
+- Consultar bases de datos o sitios específicos para hallar información relevante.
+- Realizar cálculos o generar hipótesis basados en resultados encontrados.
+
+#### Desafíos y Consideraciones
+![img_16.png](ims%2FC7%2Fimg_16.png)
+- **Interoperabilidad con Herramientas Externas**: El éxito de este enfoque depende en gran medida de la capacidad del modelo para interactuar eficazmente con herramientas externas, lo que podría requerir una integración adicional o el desarrollo de APIs específicas.
+
+- **Exactitud y Fiabilidad de la Información**: Es crucial asegurar que las fuentes de datos y herramientas externas sean precisas y confiables para evitar propagar errores o información incorrecta.
+
+- **Comprensión Limitada**: A pesar de la capacidad de estos modelos para realizar tareas complejas, su entendimiento sigue siendo limitado a interpretaciones textuales, lo que puede llevar a malentendidos o aplicaciones incorrectas de instrucciones en contextos específicos.
+
+#### Conclusión
+
+La integración de modelos de lenguaje grandes con herramientas y fuentes de datos externas representa un paso hacia la creación de sistemas de inteligencia artificial más versátiles y adaptativos, capaces de realizar una amplia gama de tareas más allá de la generación de texto. Este enfoque abre nuevas avenidas para la automatización de procesos y la creación de asistentes virtuales altamente personalizados y competentes. Sin embargo, la implementación efectiva de estas capacidades exigirá un diseño cuidadoso de las instrucciones, una integración sólida con herramientas externas y una consideración meticulosa de las implicaciones éticas y prácticas de su uso.
+
 ### Learn More About ReAct
 [<- Return to INDEX 7](#index-7)
 
+El documento propone un paradigma novedoso, denominado \model, para integrar razonamiento y acción en modelos de lenguaje, mejorando su rendimiento en tareas de razonamiento y toma de decisiones. Utiliza ejemplos en contexto para enseñar a los modelos a generar trazas de razonamiento verbal y acciones específicas de tareas de forma intercalada. Esto permite una sinergia entre razonar para actuar y actuar para razonar, superando a los métodos existentes en benchmarks de respuesta a preguntas y verificación de hechos, y demostrando ventajas en tareas de decisión interactiva. Este enfoque también mejora la interpretabilidad y confiabilidad de los modelos desde una perspectiva humana.
+
+> Documento PDF: https://arxiv.org/pdf/2210.03629.pdf
+
 ### Using Large Language Models to Grade Each Other
 [<- Return to INDEX 7](#index-7)
+
+1. Question 1
+Write a prompt and test it with ChatGPT or another large language model that uses few-shot examples to teach the large language model to perform a complex task. Provide the prompt and sample output from using the prompt.
+
+    > >**PROMPT**: text_input: hi my name is gabriel, and I'm 26 years old; my hobbies are riding a bike and painting.
+relevant_information: {"name": "gabriel", "age": "26", "hobbies": "riding a bike and painting"}
+    >> text_input: My friend Eduardo is 32 years old, he is a programmer, he has 2 sons, and her wife is Susy.
+relevant_information:
+   >
+    > >   **GPT**: relevant_information: {"name": "Eduardo", "age": "32", "occupation": "programmer", "number_of_children": "2", "wife_name": "Susy"}  
+
+2. Write a prompt and test it with ChatGPT or another large language model that uses few-shot examples to teach the large language model to perform a complex task that requires performing intermediate sub-steps. Provide the prompt and sample output from using the prompt.
+
+    > >Prompt:
+    >> - Question: I have a 120$ and I want to buy earphones and chocolates. Each earphone costs 40$ while a chocolate one costs 10$. Is there any combination in which I will obtain 2 chocolates for each earphone?
+    >>- Reasoning: Start buying only one earphone - remaining budget is 120$ - 40$ = 80$. Spend the rest of the money on chocolates and count them as 80$ (total budget) / 10$ (price of one chocolate) = 8.
+    >>- 8 is different from the double of one chocolate. So I will Increase by one the number of earphones and repeat the operation.
+    >>- Buy 2 earphones - remeaning budget is 120$ - 2(40$) = 120$ - 80$ = 40$. Spent the rest of the money on chocolates and count them as 40$/10$ = 4.
+    >>- 4 chocolates are twice, 2 earphones. I reach the condition so I'll stop because: 120$ budget - 4 chocolates x (10$) - 2 earphones x (40$) = 120$ - 40$ - 80$ = 0. I spent all my budget.
+    >>Answer: yes you can buy 2 earphones and 4 chocolates with your budget.
+    >>
+    >>- Question: I have 180$, and I want to buy earphones and chocolates. Each earphone costs 40$ while a chocolate one costs 10$. Is there any combination in which I will obtain 2 chocolates for each earphone?
+    >>- Reasoning: Start buying only one earphone -
+    >
+    >> GPT:To solve the second question:
+    >> Start by buying only one earphone:
+    Remaining budget = $180 - $40 = $140
+    Spend the rest of the money on chocolates and count them:
+    Total chocolates = $140 / $10 = 14 chocolates
+    Now, check if the chocolates are twice the number of earphones:
+    Number of chocolates = 14
+    Number of earphones = 1
+    Since the number of chocolates (14) is not twice the number of earphones (1), we need to revise the combination.
+    Next, we can try buying two earphones:
+    Buy 2 earphones:
+    Remaining budget = $180 - 2 * $40 = $100
+    Spend the rest of the money on chocolates:
+    Total chocolates = $100 / $10 = 10 chocolates
+    Now, check if the chocolates are twice the number of earphones:
+    Number of chocolates = 10
+    Number of earphones = 2
+    Since the number of chocolates (10) is not twice the number of earphones (2), we revise the combination again.
+    Let's try buying three earphones:
+
 
 ### Applying Few-Shot Examples Concepts
 [<- Return to INDEX 7](#index-7)
