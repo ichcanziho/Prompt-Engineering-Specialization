@@ -1,5 +1,7 @@
 # Prompt Engineering for ChatGPT
 
+![portada.png](portada.png)
+
 ## INDEX 0
 
 - [Course Introduction](#course-introduction)
@@ -393,34 +395,6 @@ Continuous Learning and Keeping Up with Industry Trends
 > >Resources: Subscribing to relevant blogs, following influencers on social media platforms like Twitter and LinkedIn, attending conferences and workshops.
 By following this learning path, one can gradually build a solid foundation in data science, machine learning, deep learning, and acquire essential soft skills necessary to excel as a data scientist specialist. It's important to continuously practice coding, work on projects, and stay updated with the latest advancements in the field.
 > 
-> >Prompt 2:User
-Now, give me tips to improve my current salary, given that I have more experience in deep learning compared to when I entered the job.
->
-> >Ans 2:
-> >
-> >Certainly! Here are some tips to help you increase your salary as an experienced data scientist specializing in deep learning:
-> >
-> >Demonstrate Impactful Projects: Highlight the projects you have worked on that have had a significant impact on the organization, whether it's improving processes, increasing revenue, or solving complex problems using deep learning techniques. Quantify the results wherever possible to showcase your contributions.
-> >
-> >Continuously Upskill: Stay updated with the latest advancements in deep learning by attending workshops, webinars, and conferences, and by enrolling in advanced courses. Demonstrating your commitment to continuous learning and staying at the forefront of technology can make you more valuable to employers.
-> >
-> >Seek Specialization: Deepen your expertise in a specific niche within deep learning, such as computer vision, natural language processing, or reinforcement learning. Specialization can make you more sought after for roles that require expertise in those areas, potentially leading to higher salaries.
-> >
-> >Build a Strong Professional Network: Networking with peers, mentors, and industry professionals can provide valuable insights into salary trends, job opportunities, and negotiation strategies. Attend industry events, participate in online forums and communities, and connect with professionals on platforms like LinkedIn.
-> >
-> >Negotiate Strategically: When considering job offers or salary increases, negotiate strategically based on your skills, experience, and the value you bring to the organization. Research industry standards and salary benchmarks for data scientists specializing in deep learning to ensure you're being compensated fairly.
-> >
-> >Consider Job Market Demand: Stay informed about the demand for deep learning expertise in your geographical region or industry. If there's high demand and limited supply of skilled deep learning practitioners, you may have more leverage in negotiating higher salaries or seeking out lucrative job opportunities.
-> >
-> >Highlight Leadership and Mentorship Skills: If you've taken on leadership roles or mentored junior team members in deep learning projects, emphasize these experiences during salary negotiations. Leadership and mentorship skills are highly valued in the industry and can contribute to your overall worth as a data scientist.
-> >
-> >Evaluate Total Compensation Package: Don't focus solely on base salary; consider other components of the compensation package, such as bonuses, stock options, benefits, and professional development opportunities. Sometimes, a comprehensive package can be more valuable than a higher base salary alone.
-> >
-> >Track and Document Achievements: Keep a record of your accomplishments, certifications, publications, and awards related to deep learning. Having concrete evidence of your achievements can bolster your case during performance reviews or salary discussions.
-> >
-> >Consider Job Mobility: If you're not seeing significant salary increases in your current role or organization, consider exploring opportunities at other companies. Job mobility can often lead to higher salary offers, especially if you have in-demand skills and experience in deep learning.
-> >
-> >By implementing these strategies, you can position yourself for salary growth and advancement in your career as an experienced data scientist specializing in deep learning. Remember to continuously assess and negotiate your worth based on your skills, contributions, and market demand.
 
 ## What are Prompts?
 [<- Return to INDEX 0](#index-0)
@@ -2251,44 +2225,541 @@ Choose one of the patterns from this module and write a sample prompt using the 
 ### Ask for Input Pattern
 [<- Return to INDEX 9](#index-9)
 
+El concepto del patrón "ask for input" (solicitar entrada) es una estrategia diseñada para manejar la interacción con modelos de lenguaje grandes de manera más controlada y dirigida. Es útil especialmente en casos donde se busca orientar la generación del modelo hacia una tarea específica sin desencadenar respuestas automáticas o extensas no deseadas basadas en las reglas previas introducidas. Este patrón permite incorporar un paso de confirmación o precisión antes de proceder, haciendo que la experiencia sea más interactiva y adaptada a la necesidad inmediata del usuario.
+
+#### Implementación del Patrón "Ask for Input"
+
+![img.png](ims%2FC9%2Fimg.png)
+
+- **Establecimiento de Reglas**: Inicialmente, se describen detalladamente las reglas o directrices que se desea que el modelo siga. Esto puede abarcar desde el formato deseado de las respuestas hasta criterios más complejos relacionados con el contenido o el estilo de la generación textual.
+
+- **Interrupción Controlada**: Al final de las instrucciones, se inserta una solicitud específica para que el modelo solicite más información o una nueva entrada. Esto actúa como un punto de pausa que transfiere el control de vuelta al usuario antes de que el modelo proceda con cualquier generación de contenido adicional.
+
+- **Retorno del Control al Usuario**: Con este enfoque, el modelo queda a la espera de instrucciones adicionales, permitiendo al usuario decidir el siguiente paso o proporcionar la información específica requerida para continuar con la tarea.
+
+#### Beneficios del Patrón "Ask for Input"
+
+- **Enfoque**: Previene que el modelo se adelante generando respuestas o contenidos no solicitados basados en las reglas iniciales, manteniendo la interacción centrada en el propósito deseado.
+
+- **Interacción Personalizada**: Facilita una experiencia más dinámica y participativa, donde el usuario tiene la posibilidad de guiar y ajustar la dirección del diálogo según se desarrolla.
+
+- **Mejora la Coherencia**: Al evitar generaciones automáticas basadas en las reglas introducidas previamente, se puede mantener un enfoque más coherente y relevante para el objetivo de la interacción.
+
+#### Consideraciones
+
+- **Estocasticidad**: A pesar de su efectividad, es importante recordar que el comportamiento del modelo puede tener cierta variabilidad, y no siempre puede garantizarse una pausa perfecta o una solicitud de entrada en cada instancia.
+
+- **Claridad en la Solicitud**: Es crucial ser claro y específico al formular la solicitud de entrada para evitar confusiones o respuestas inadecuadas por parte del modelo.
+
+Este patrón "ask for input" subraya la importancia de una interacción iterativa y precisa con modelos de lenguaje grandes, ofreciendo una metodología efectiva para aprovechar sus capacidades avanzadas de generación de texto de manera que se alinee estrechamente con las necesidades y expectativas del usuario.
+
 ### Format of the Ask for Input Pattern
 [<- Return to INDEX 9](#index-9)
+
+Para utilizar este patrón, su pregunta debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Pídame la entrada X
+
+Deberá sustituir "X" por una entrada, como una "pregunta", un "ingrediente" o un "objetivo".
+
+**Ejemplos:**
+
+- A partir de ahora, voy a cortar/pegar cadenas de correos electrónicos en nuestra conversación. Usted resumirá cuáles son los puntos de cada persona en la cadena de correos electrónicos. Presentará su resumen como una serie de viñetas secuenciales. Al final, enumere las preguntas abiertas o los puntos de acción dirigidos directamente a mí. Me llamo Jill Smith. 
+Pídame la primera cadena de correos electrónicos.
+
+- A partir de ahora, traduzca cualquier cosa que escriba en una serie de sonidos y acciones de un perro que representen la reacción de los perros a lo que escribo. Pídame lo primero que traduzca. 
 
 ### Combining Patterns
 [<- Return to INDEX 9](#index-9)
 
+La combinación de patrones al interactuar con modelos de lenguaje grandes como ChatGPT, es una estrategia avanzada que potencialmente mejora la precisión, la relevancia y la utilidad de las respuestas generadas. Esta técnica refleja el enfoque multifacético necesario para abordar interrogantes complejos o tareas multifuncionales, permitiendo que las instrucciones cubran varios aspectos críticos de un problema y guíen al modelo hacia soluciones más integradas y coherentes.
+
+#### Fundamentos de la Combinación de Patrones:
+
+![img_1.png](ims%2FC9%2Fimg_1.png)
+
+- **Identificación de Componentes del Problema**: Analizar un problema para determinar sus elementos fundamentales permite identificar qué patrones específicos podrían aplicarse para tratar cada aspecto.
+
+- **Selección de Patrones Relevantes**: Elegir entre diversos patrones basados en su aplicabilidad a los diferentes elementos identificados del problema.
+
+- **Sintetización de Patrones**: Integrar los patrones seleccionados en una serie de indicaciones cohesivas que guíen al modelo en la generación de una solución integral.
+
+#### Ejemplos de Aplicación:
+
+- **Interacción Incremental**: Utilizar un patrón de "solicitud de entrada" para manejar el flujo de la conversación, combinado con otro patrón que defina el enfoque específico de la tarea, como "enfoques alternativos", permite una exploración paso a paso de las posibles soluciones a un problema.
+
+- **Adaptación Contextual**: Combinar un patrón de "persona" que simule la consulta a un experto específico, con patrones que establezcan restricciones o metas particulares, puede guiar la generación hacia respuestas que reflejen el conocimiento especializado en el contexto deseado.
+
+#### Estrategias de Implementación:
+
+1. **Claridad del Objetivo**: Definir con precisión el objetivo de la interacción ayudará a determinar qué combinación de patrones es más adecuada para alcanzarlo.
+
+2. **Interrelación de Patrones**: Considerar cómo los distintos patrones seleccionados se influenciarán entre sí y ajustar las indicaciones para que se complementen efectivamente.
+
+3. **Iteración y Ajuste**: Probar la combinación de patrones en una serie de interacciones y refinar el enfoque con base en la retroalimentación obtenida del modelo.
+
+#### Consideraciones:
+
+- **Coherencia del Mensaje**: Asegurarse de que el mensaje compuesto por combinaciones de patrones mantenga una coherencia lógica y narrativa para evitar confusiones en el modelo.
+
+- **Jerarquía de Patrones**: Priorizar ciertos patrones sobre otros dentro de la combinación, especialmente en casos donde se busca una respuesta específica, pero bajo condiciones particulares definidas por patrones adicionales.
+
+- **Simplicidad vs. Complejidad**: Equilibrar la simplicidad de las instrucciones con la complejidad necesaria para abordar adecuadamente el problema sin sobrecargar la capacidad de procesamiento del modelo.
+
+Combinar patrones al formular indicaciones para modelos de lenguaje grandes no es simplemente un ejercicio de complejidad; es un reflejo de la necesidad de abordar problemas multifacéticos de manera estructurada y consciente. Este enfoque permite aprovechar la capacidad de los modelos de inteligencia artificial para generar soluciones integradas que consideren múltiples dimensiones de un problema, ofreciendo así respuestas más ricas y aplicables.
+
 ### Outline Expansion Pattern
 [<- Return to INDEX 9](#index-9)
+
+La combinación y expansión de patrones en el trabajo con modelos de lenguaje grandes como ChatGPT representa una estrategia avanzada para abordar proyectos complejos y tareas multifacéticas. Al considerar una conversación o interacción con el modelo no como un evento único, sino como una serie de intercambios iterativos y progresivos, podemos estructurar la comunicación de manera que se construya hacia un objetivo más amplio y coherente. Este enfoque permite superar las limitaciones inherentes de los modelos, especialmente en términos de longitud de entrada y capacidad de retención contextual.
+
+![img_2.png](ims%2FC9%2Fimg_2.png)
+
+#### Implementando el Patrón de Expansión del Contorno
+
+
+
+**1. Definición del Esquema:** Se comienza identificando y delineando la estructura general del proyecto o problema en cuestión. Esto puede implicar definir capítulos para un libro, módulos para un curso, o componentes clave para un sistema de software.
+
+![img_3.png](ims%2FC9%2Fimg_3.png)
+
+**2. Refinamiento Iterativo:** Se detalla cada sección del esquema pasando por ciclos de expansión, donde se utiliza el modelo para generar contenido o soluciones específicas para cada área identificada. Es vital mantener la perspectiva del esquema general para asegurar cohesión y coherencia.
+
+![img_4.png](ims%2FC9%2Fimg_4.png)
+
+**3. Incorporación de Patrones Específicos:** Se invoca el uso de patrones específicos (como "pedir entrada", "crear alternativas" o "actuar como") en puntos estratégicos para dirigir al modelo hacia los objetivos deseados o para solicitar información adicional que sea necesaria para progresar.
+
+**4. Ensamble de Componentes:** Una vez generados los distintos segmentos o piezas del proyecto, se procede a ensamblarlos en una estructura cohesiva, prestando atención a cómo cada parte contribuye al todo y ajustando según sea necesario para garantizar un flujo lógico y una integración efectiva.
+
+#### Beneficios de Este Enfoque
+
+![img_5.png](ims%2FC9%2Fimg_5.png)
+
+- **Superación de Limitaciones de Capacidad:** Facilita la gestión de proyectos extensos o complejos, evadiendo los límites de capacidad de entrada de los modelos y su tendencia a perder el contexto en conversaciones largas.
+
+- **Flexibilidad de Desarrollo:** Permite la adaptación y modificación dinámica del esquema en función de las respuestas generadas, nuevos hallazgos o cambio de objetivos.
+
+- **Control Mejorado sobre la Generación del Contenido:** La dirección consciente y progresiva dentro del marco establecido por el esquema permite un mayor control sobre la relevancia y calidad del contenido producido.
+
+#### Consideraciones Finales
+
+Mientras se trabaja con esta metodología, es esencial recordar la necesidad de un equilibrio entre la guía proporcionada al modelo y la apertura para las respuestas creativas o innovadoras que ofrece. Además, la precisión al establecer las partes del esquema y la claridad en las instrucciones son cruciales para maximizar la eficacia de este enfoque.
+
+En resumen, el patrón de expansión del contorno demuestra cómo, mediante la planificación estratégica y la iteración controlada, es posible emplear modelos de lenguaje grandes con éxito para proyectos de cualquier escala, manteniendo una dirección clara y logrando coherencia en el resultado final.
 
 ### Format of the Outline Expansion Pattern
 [<- Return to INDEX 9](#index-9)
 
+Para utilizar este patrón, su aviso debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Actúe como un ampliador de esquemas. 
+
+- Genere un esquema de viñetas basándose en la información que yo le facilite y luego pregúnteme qué viñeta debe ampliar. 
+
+- Cree un nuevo esquema para la viñeta que yo seleccione. 
+
+- Al final, pregúnteme qué viñeta debe ampliar a continuación.   
+
+- Pregúnteme qué debe esquematizar.
+
+**Ejemplos:**
+
+- Actúe como expansor de esquemas. Genere un esquema de viñetas basado en la información que yo le dé y luego pregúnteme qué viñeta debe ampliar. Cada viñeta puede tener como máximo de 3 a 5 subviñetas. Las viñetas deben numerarse siguiendo el patrón [A-Z].[i-v].[* hasta ****]. Cree un nuevo esquema para la viñeta que yo seleccione.  Al final, pregúnteme qué viñeta ampliar a continuación. Pregúnteme por lo que debe esquematizar.
+
 ### Menu Actions Pattern
 [<- Return to INDEX 9](#index-9)
+
+El patrón de "acciones de menú" en el contexto de la interacción con modelos de lenguaje grandes como ChatGPT es una herramienta potente que refuerza la eficiencia y la claridad en la generación de contenido específico o en la ejecución de tareas. Este patrón permite definir un conjunto preestablecido de acciones o instrucciones que el modelo puede reconocer y ejecutar, facilitando una interacción más estructurada y predecible.
+
+#### Implementación del Patrón de Acciones de Menú
+
+![img_6.png](ims%2FC9%2Fimg_6.png)
+
+**1. Definición del Menú:**
+Se establece un "menú" al inicio de la conversación que enumera las acciones específicas disponibles. Esto puede incluir, por ejemplo, escribir contenido sobre un tema específico, expandir una idea con mayor detalle, o generar alternativas.
+
+**2. Desencadenantes de Acciones:**
+Para cada acción del menú se define un desencadenante específico, que puede ser una frase o palabra clave que el modelo reconoce como señal para ejecutar la acción asociada.
+
+**3. Ejecución de Acciones:**
+Cuando se proporciona el desencadenante correspondiente, el modelo procede a realizar la acción especificada, siguiendo las directrices previamente establecidas en el menú.
+
+**4. Interacción Iterativa:**
+El usuario puede seleccionar y solicitar diferentes acciones del menú a lo largo de la conversación, permitiendo una interacción dinámica que se adapta a las necesidades del momento.
+
+![img_7.png](ims%2FC9%2Fimg_7.png)
+
+> Nota: vemos como en este prompt NO escribí Write X, Y solo puse X y en la definición del menu vemos que si solo se pone X entonces se hace una expansión del outline.
+
+
+#### Beneficios del Patrón de Acciones de Menú
+
+![img_8.png](ims%2FC9%2Fimg_8.png)
+
+- **Eficiencia:** Permite a los usuarios activar comportamientos complejos del modelo mediante simples desencadenantes, agilizando la interacción.
+
+- **Claridad:** Ayuda a estructurar la conversación, brindando al usuario una comprensión clara de las opciones disponibles y cómo activarlas.
+
+- **Personalización:** Facilita la creación de experiencias de usuario personalizadas, adaptando el menú de acciones a las tareas o preguntas más relevantes para el usuario o la organización.
+
+- **Reutilización y Compartición:** Las acciones definidas pueden compartirse fácilmente entre usuarios o incorporarse a procesos automatizados, estandarizando las mejores prácticas y ahorrando tiempo en la formulación de indicaciones.
+
+#### Consideraciones Clave
+
+- **Diseño del Menú:** Es esencial definir el menú de manera que las acciones sean claras, relevantes y fácilmente distinguibles entre sí para evitar confusión en su activación.
+
+- **Capacidad del Modelo:** Aunque este enfoque amplía las posibilidades de interacción, las acciones deben diseñarse teniendo en cuenta las capacidades y límites del modelo para asegurar resultados efectivos.
+
+- **Iteración y Mejora:** El diseño de las acciones de menú puede requerir iteración y ajuste basados en la experiencia de uso, para refinar su eficacia y relevancia.
+
+Por tanto, el patrón de "acciones de menú" destaca como un enfoque innovador para diseñar conversaciones estructuradas y dirigidas con modelos de lenguaje. Mediante la especificación de acciones predefinidas, los usuarios pueden lograr resultados específicos de manera más eficiente, haciendo de la interacción con estos modelos una experiencia más rica y productiva.
 
 ### Format of the Menu Actions Pattern
 [<- Return to INDEX 9](#index-9)
 
+Para utilizar este patrón, su indicador debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Siempre que escriba X, usted hará Y. 
+
+- (Opcional, proporcione elementos de menú adicionales) Siempre que yo escriba Z, ustedes harán Q. 
+
+- Al final, me preguntará por la siguiente acción.
+
+Tendrá que sustituir "X" por un patrón apropiado, como "estimar <TASK DURATION>" o "añadir COMIDA". A continuación, tendrá que especificar una acción para que se active el elemento del menú, como "añadir ALIMENTOS a mi lista de la compra y actualizar mi factura estimada de la compra".
+
+**Ejemplos:**
+
+- Cada vez que teclee "añadir ALIMENTOS", añadirá ALIMENTOS a mi lista de la compra y actualizará mi factura estimada de la compra. Siempre que teclee: "eliminar ALIMENTOS", ustedes eliminarán ALIMENTOS de mi lista de la compra y actualizarán mi factura estimada de la compra. Cada vez que escriba "ahorrar", ustedes enumerarán alternativas a mis ALIMENTOS añadidos para ahorrar dinero. Al final, me preguntará por la siguiente acción.  
+Pídame la primera acción. 
+
 ### Fact Check List Pattern
 [<- Return to INDEX 9](#index-9)
+
+La utilización del patrón de "lista de verificación de hechos" en interacciones con modelos de lenguaje grandes como ChatGPT marca un paso crucial hacia el uso responsable y crítico de estas herramientas avanzadas. Al reconocer y abordar tanto la capacidad de estos modelos para generar información útil como sus limitaciones en precisión y veracidad, los usuarios pueden emplear estratégicamente las respuestas generadas, optimizando la fiabilidad de la información obtenida.
+
+#### Implementando el Patrón de Lista de Verificación de Hechos
+
+![img_9.png](ims%2FC9%2Fimg_9.png)
+
+**1. Generación Conjunta de Texto y Hechos Asociados:**
+Al solicitar la creación de contenido, también se pide al modelo que proporcione una lista de hechos clave implicados en la generación. Esto permite una inspección posterior más metódica y focalizada en la veracidad de los elementos constitutivos de la respuesta.
+
+**2. Uso de Indicaciones Específicas:**
+Mediante el uso de indicaciones precisas, el usuario puede guiar al modelo para que, además del texto generado, elabore una enumeración de afirmaciones o "hechos" que son fundamentales para la estructura de la respuesta.
+
+**3. Evaluación y Comparación:**
+La lista generada de hechos se utiliza como referencia para una revisión exhaustiva, donde cada elemento puede ser verificado a través de fuentes fiables externas, asegurando así que la respuesta se sustenta en información correcta y actual.
+
+#### Beneficios del Patrón de Lista de Verificación de Hechos
+
+![img_10.png](ims%2FC9%2Fimg_10.png)
+
+- **Mayor Responsabilidad en la Uso de AI:**
+Fomenta una actitud crítica y analítica hacia la información generada por modelos de IA, evitando la aceptación inmediata de las respuestas generadas.
+
+- **Promoción de la Precisión:**
+Al separar y enfocar en los "hechos" subyacentes en el contenido generado, los usuarios pueden identificar y corregir potenciales inexactitudes, mejorando la calidad y fiabilidad del contenido final.
+
+- **Facilitación del Proceso de Verificación:**
+Proporciona un método estructurado para desglosar y examinar las respuestas generadas, especialmente en casos donde el texto es extenso o cubre múltiples afirmaciones que requieren validación.
+
+#### Estrategias para la Verificación de Hechos
+
+- **Desarrollo de una Metodología Sistemática:**
+Establecer un proceso estándar para la revisión de los "hechos" listados, utilizando recursos de información confiables y actualizados.
+
+- **Colaboración y Revisión Compartida:**
+En contextos de equipo o organizacionales, distribuir la tarea de verificación entre varios individuos puede aumentar la cobertura y profundidad de la revisión.
+
+- **Documentación de Fuentes y Hallazgos:**
+Mantener registros de las fuentes consultadas para la verificación y cualquier discrepancia o confirmación encontrada sirve tanto para el respaldo de la precisión como para futuras referencias.
+
+A través del patrón de "lista de verificación de hechos", los usuarios pueden navegar efectivamente por la delgada línea entre aprovechar la capacidad generativa de los modelos de lenguaje y mantener un compromiso firme con la precisión y la veracidad de la información. Este enfoque subraya la importancia de una mirada crítica y la diligencia en la interacción con tecnologías de inteligencia artificial avanzadas.
 
 ### Format of the Fact Check List Pattern
 [<- Return to INDEX 9](#index-9)
 
+Para utilizar este patrón, su indicador debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Generar un conjunto de hechos que estén contenidos en la salida 
+
+- El conjunto de hechos debe insertarse en POSICIÓN en la salida 
+
+- El conjunto de hechos deben ser los hechos fundamentales que podrían socavar la veracidad de la salida si alguno de ellos es incorrecto
+
+Deberá sustituir POSITION por un lugar apropiado para colocar los hechos, como "al final de la salida".
+
+**Ejemplos:**
+
+- Siempre que dé salida a un texto, genere un conjunto de hechos que estén contenidos en la salida. El conjunto de hechos debe insertarse al final de la salida. El conjunto de hechos deben ser los hechos fundamentales que podrían socavar la veracidad de la salida si alguno de ellos es incorrecto.
+
 ### Tail Generation Pattern
 [<- Return to INDEX 9](#index-9)
+
+La estrategia del **patrón de generación de colas** es fundamental para sostener una interacción coherente y continuada con modelos de lenguaje grandes, especialmente en conversaciones largas donde el enfoque y el objetivo deben mantenerse claros en cada etapa. Este enfoque asegura que, independientemente de la longitud del diálogo, el modelo pueda retener y aplicar las "reglas del juego" o contextos específicos necesarios para generar respuestas pertinentes y útiles.
+
+#### Aplicaciones del Patrón de Generación de Colas:
+
+![img_11.png](ims%2FC9%2Fimg_11.png)
+
+> Nota: es es uno de los prompts anteriores que usamdos.
+
+1. **Mantenimiento de Objetivos**: Al adjuntar una "cola" que recapitula el objetivo, las instrucciones o las expectativas al final de cada generación de texto, se refuerza el propósito de la interacción, guiando las respuestas subsiguientes del modelo de manera más efectiva.
+
+2. **Refuerzo de Contexto y Reglas**: Particularmente útil cuando se navega una serie de tareas complejas o reglas detalladas que deben observarse a lo largo de múltiples iteraciones o pasos en la conversación.
+
+3. **Solicitudes de Seguimiento**: Facilita la planificación de los siguientes pasos en un proceso, instando directamente al usuario a proporcionar nueva información o instrucciones específicas, efectivamente haciendo que el modelo solicite "cuál es la siguiente tarea".
+
+#### Implementación Efectiva:
+
+![img_12.png](ims%2FC9%2Fimg_12.png)
+
+> Nota: aquí es consciente de que debe preguntar esto para no olvidar su regla principal.
+
+- **Definir Reglas Claras y Concisas**: Las instrucciones o reglas proporcionadas al inicio deben ser lo suficientemente claras para que el modelo las aplique adecuadamente y las recapitule al final de cada generación de texto.
+
+- **Integración de Solicitudes de Entrada**: Incorporar peticiones explícitas de más información o acciones a realizar ayuda a mantener el diálogo dirigido y productivo.
+
+- **Iteración y Adaptabilidad**: Basado en la retroalimentación o resultados generados por el modelo, se puede ajustar el contenido de la "cola" para refinar o cambiar el enfoque según sea necesario.
+
+#### Beneficios y Desafíos:
+
+![img_13.png](ims%2FC9%2Fimg_13.png)
+
+> Nota: Para conversaciones muy largas es buena idea utilizar el patron Tail
+
+- **Coherencia y Continuidad**: Este patrón mejora significativamente la capacidad del modelo para producir respuestas relevantes y coherentes a lo largo de interacciones extendidas.
+
+- **Dinámica Interactiva Mejorada**: Al requerir la reiteración de instrucciones o el planteamiento de nuevas solicitudes de información, se promueve una interacción más interactiva y dinámica con el modelo.
+
+- **Riesgo de Repetición**: Un desafío potencial es asegurar que la "cola" no conduzca a respuestas repetitivas o ciclos donde la conversación no avanza efectivamente.
+
+El patrón de generación de colas capacita a los usuarios para dirigir el flujo de la conversación y mantener al modelo enfocado en el objetivo de la interacción, especialmente útil en contextos donde se requiere un diálogo iterativo y prolongado. Este enfoque demuestra cómo se pueden estructurar diálogos complejos con modelos de lenguaje para obtener resultados óptimos, mitigando los desafíos asociados con las limitaciones de memoria y contextual del modelo.
+
+### Format of the Tail Generation Pattern
+[<- Return to INDEX 9](#index-9)
+
+Para utilizar este patrón, su aviso debe hacer las siguientes afirmaciones contextuales fundamentales:
+
+- Al final, repita Y y/o pídame X. 
+
+Tendrá que sustituir "Y" por lo que el modelo debe repetir, como "repita mi lista de opciones", y X por lo que debe pedir, "para la siguiente acción". Por lo general, estas afirmaciones deben ir al final de la pregunta o penúltimas.
+
+**Ejemplos:**
+
+- Actuar como un expansor de esquemas. Genere un esquema de viñetas basándose en la información que yo le facilite y, a continuación, pregúnteme sobre qué viñeta debe ampliar. Cree un nuevo esquema para la viñeta que yo seleccione. Al final, pregúnteme qué viñeta debe ampliar a continuación.   
+Pregúnteme por lo que debe esquematizar.
+
+- A partir de ahora, al final de su salida, añada el descargo de responsabilidad "Esta salida ha sido generada por un gran modelo lingüístico y puede contener errores o afirmaciones inexactas. Todas las afirmaciones deben ser verificadas" Pídame lo primero sobre lo que debe escribir.
+
 
 ### Semantic Filter Pattern
 [<- Return to INDEX 9](#index-9)
 
+El concepto de **filtro semántico** es sumamente valioso al trabajar con modelos de lenguaje grandes como ChatGPT, especialmente cuando se busca procesar y manipular texto de manera que se conserven o eliminen ciertas informaciones basadas en criterios semánticos específicos. Esta técnica no solo es útil para filtrar texto de manera más inteligente, sino que también abre la puerta a una amplia gama de aplicaciones prácticas, desde la protección de la privacidad hasta la personalización de contenidos.
+
+#### Aplicaciones del Filtro Semántico:
+
+![img_15.png](ims%2FC9%2Fimg_15.png)
+
+1. **Privacidad y Confidencialidad**: Eliminar información personal, datos sensibles o cualquier otro contenido específico que no deba divulgarse o utilizarse en un contexto determinado.
+
+2. **Adaptación de Contenido**: Refinar un conjunto de datos o un corpus de texto para enfocarse en temas, conceptos o términos específicos relevantes para un propósito de investigación, educación o desarrollo de productos.
+
+3. **Simplificación y Clarificación**: Concentrar el contenido textual en aspectos centrales al eliminar detalles redundantes o irrelevantes, lo que puede ser especialmente útil para resumir y presentar información clara a los usuarios.
+
+#### Implementación y Estrategias:
+
+![img_16.png](ims%2FC9%2Fimg_16.png)
+
+- **Definición Clara de Criterios**: La efectividad del filtro depende en gran medida de la precisión con que se definan los criterios semánticos. Identificar claramente qué información debe conservarse o eliminarse es fundamental.
+
+- **Iteración y Ajuste Fino**: Al igual que con cualquier proceso de filtrado, es probable que sea necesario iterar y ajustar los criterios basados en los resultados obtenidos, refinando continuamente el enfoque para mejorar la exactitud.
+
+- **Combinación con otros Patrones**: Como se mencionó, este filtro puede combinarse eficazmente con otros patrones de generación de texto, como la generación de colas o la solicitud de entradas adicionales, para crear sistemas de procesamiento de texto complejos y adaptativos.
+
+#### Consideraciones Importantes:
+
+![img_17.png](ims%2FC9%2Fimg_17.png)
+
+- **Comprensión de Contexto y Semántica**: Aunque los modelos de lenguaje grandes son altamente capaces de entender y manipular texto, su interpretación depende de la exactitud de su entrenamiento y la complejidad del contexto. Es importante tener en cuenta estas limitaciones.
+
+- **Validación Humana**: En aplicaciones críticas, especialmente aquellas que involucran privacidad, confidencialidad o toma de decisiones basada en los datos procesados, es crucial que un humano valide la eficacia del filtrado semántico.
+
+- **Flexibilidad y Adaptabilidad**: Considerar la naturaleza dinámica de la semántica y la información. Lo que se considera información sensible o irrelevante puede cambiar con el tiempo o variar entre contextos.
+
+![img_18.png](ims%2FC9%2Fimg_18.png)
+
+El patrón de filtro semántico destaca por su potencial para transformar la forma en que interactuamos y aprovechamos la capacidad de los modelos de lenguaje grandes, permitiendo un procesamiento de texto más inteligente y contextuado. A medida que avanzamos hacia una integración más profunda de la inteligencia artificial en las operaciones del día a día, herramientas como esta se vuelven indispensables en el arsenal de cualquier profesional que trabaje con grandes volúmenes de información textual.
+
 ### Format of the Semantic Filter Pattern
 [<- Return to INDEX 9](#index-9)
+
+Para utilizar este patrón, su indicador debe hacer las siguientes declaraciones contextuales fundamentales:
+
+- Filtre esta información para eliminar X
+
+Deberá sustituir "X" por una definición adecuada de lo que desea eliminar, como por ejemplo "nombres y fechas" o "costes superiores a 100 dólares".
+
+**Ejemplos:**
+
+- Filtre esta información para eliminar cualquier información de identificación personal o información que pueda ser potencialmente utilizada para reidentificar a la persona. 
+
+- Filtre este correo electrónico para eliminar información redundante.
 
 ### Course Conclusion & Thank You
 [<- Return to INDEX 9](#index-9)
 
+Gracias por acompañarnos en este viaje por el curso de ingeniería rápida con modelos de lenguaje grande como ChatGPT. Esperamos que esta experiencia haya ampliado tu comprensión y aprecio por el potencial creativo y práctico de estas herramientas de IA. Como hemos discutido, la interacción efectiva con modelos de lenguaje grandes no solo es una cuestión de formular preguntas o pedir tareas; es una oportunidad para dialogar, explorar y co-crear junto con la inteligencia artificial. Aquí resumimos los puntos clave y sugerencias para avanzar con éxito en tu camino de ingeniería rápida:
+
+![img_14.png](ims%2FC9%2Fimg_14.png)
+
+#### Claves para la Ingeniería Rápida:
+- **Creatividad Humana**: El valor más significativo de herramientas como ChatGPT reside en cómo la creatividad humana puede interactuar con la capacidad computacional para explorar nuevas ideas, resolver problemas y generar innovaciones.
+  
+- **Conversación como Método**: Ver las indicaciones no solo como comandos unitarios sino como partes de una conversación continua con el modelo. Esto permite un proceso de refinamiento iterativo en el que cada interacción construye sobre la anterior.
+
+- **Refinamiento Iterativo**: Adopta un enfoque de Miguel Ángel hacia la interacción con la IA, esculpiendo gradualmente para acercarte a tu visión final a través de la experimentación, ajuste y revisión.
+
+#### Sugerencias para Avanzar:
+
+1. **Practica Regularmente**: La destreza en la ingeniería rápida viene con la práctica. No dudes en experimentar, probar límites y explorar posibilidades inesperadas.
+
+2. **Mantente Actualizado**: El campo de la IA está en constante evolución. Mantente al tanto de las últimas investigaciones y desarrollos para aplicar los conocimientos más recientes en tus proyectos.
+
+3. **Colabora**: La innovación se amplifica a través de la colaboración. Comparte tus ideas, trabaja con otros y explora colectivamente las capacidades y posibilidades de estos modelos.
+
+4. **Ética y Responsabilidad**: Al utilizar estas poderosas herramientas, es esencial proceder con una consciencia ética, asegurando que su uso fomente el bienestar, la precisión y el respeto por la privacidad y los valores humanos.
+
+#### Conclusión:
+Al final de este curso, esperamos que te sientas inspirado e informado, listo para llevar tus habilidades de ingeniería rápida al siguiente nivel. Las posibilidades son tan amplias como tu imaginación y el esfuerzo que estés dispuesto a invertir. Invitamos a seguir compartiendo tus experiencias, aprendizajes y creaciones con la comunidad, y juntos, continuaremos descubriendo y empujando los límites de lo que es posible con la inteligencia artificial.
+
+Una vez más, ¡gracias por ser parte de este curso sobre ingeniería rápida! Nos emociona ver adónde llevarán tu creatividad y tus nuevos conocimientos en ingeniería rápida.
+
 ### Continue Learning About Prompt Engineering
 [<- Return to INDEX 9](#index-9)
 
+**Un catálogo de patrones de prompts para mejorar la ingeniería de prompts con ChatGPT**
+Jules White, Quchen Fu, Sam Hays, Michael Sandborn, Carlos Olea, Henry Gilbert, Ashraf Elnashar, Jesse Spencer-Smith, Douglas C. Schmidt
+
+https://arxiv.org/abs/2302.11382
+
+**La incitación a la cadena de pensamiento suscita el razonamiento en grandes modelos lingüísticos**
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou
+
+https://arxiv.org/abs/2201.11903
+
+**ReAct: Sinergia entre razonamiento y actuación en modelos lingüísticos**
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao
+
+https://arxiv.org/abs/2210.03629
+
+**Patrones ChatGPT Prompt para mejorar la calidad del código, la refactorización, la obtención de requisitos y el diseño de software**
+Jules White, Sam Hays, Quchen Fu, Jesse Spencer-Smith, Douglas C. Schmidt
+
+https://arxiv.org/abs/2303.07839
+
+
+
 ### Creating a Prompt-based Application
 [<- Return to INDEX 9](#index-9)
+
+1. Question 1
+Develop your own prompt-based application, similar to the outlining application from the videos, to help you accomplish a task. Your application can do whatever you want and does not have to be focused on outlining. Come up with a creative way of using large language models to program an environment to solve a problem you face on a daily basis. 
+Provide your prompt and a sample of using the prompt-based application. 
+
+    >> 
+    >> **Prompt:** Vamos a desarrollar una metodología para solucionar el problema de detección de vida en un video. Para eso, el primer paso será que actúes como un ampliador de esquemas. Tu trabajo consiste en generar un esquema de viñetas basándose en el problema que enfrentamos, luego me preguntaras cuál viñeta debes ampliar. Crearas un nuevo esquema para la viñeta que yo haya seleccionado. Y terminaras preguntandome qué otra viñeta deberias ampliar a continuación.
+    >>
+    >
+    >> **GPT:** ¡Por supuesto! Empecemos con el esquema inicial para abordar el problema de detección de vida en un video:
+    >>
+    > 
+    >> **Prompt:** 1
+    >>
+    >> **GPT:** Perfecto, ampliemos la primera viñeta: Definición del Problema.
+    >>
+    >> Esquema Ampliado - Definición del Problema:
+    >>
+    >> * Identificar la necesidad de detección de vida en videos:
+    >>   - Explorar los diferentes contextos en los que la detección de vida en videos es crucial, como vigilancia, análisis médico, exploración espacial, etc.
+    >>   - Analizar los posibles desafíos y limitaciones asociados con la detección de vida en entornos específicos.
+    >>
+    >>   * Entender el propósito y las aplicaciones de la detección de vida en videos:
+    >>     - Investigar cómo la detección de vida en videos puede mejorar la seguridad, la eficiencia o la calidad de vida en diferentes sectores.
+    >>     - Establecer objetivos claros para el sistema de detección de vida y definir los criterios de éxito.
+    >>
+    >>   * Considerar las implicaciones éticas y legales:
+    >>     - Evaluar las implicaciones éticas relacionadas con la privacidad y el consentimiento al utilizar tecnologías de detección de vida en videos.
+    >>     - Familiarizarse con las regulaciones y normativas pertinentes que puedan afectar el desarrollo y la implementación de sistemas de detección de vida.
+    >>
+    >>   * Recopilación de requisitos y especificaciones del sistema:
+    >>     - Recolectar información detallada sobre los requisitos del sistema, incluidas las necesidades de los usuarios finales y las limitaciones técnicas.
+    >>     - Definir claramente qué se considera "vida" en el contexto del problema y cómo se debe detectar en los videos.
+    >>
+    >> ¿Qué viñeta te gustaría ampliar a continuación?
+    >>
+    > 
+    >> **Prompt:** 1.3
+    >>
+    >> **GPT:** Perfecto, vamos a expandir la viñeta 1.3 Considerar las implicaciones éticas y legales:
+    >>
+    >> Esquema Ampliado - Considerar las implicaciones éticas y legales:
+    >>
+    >> * Privacidad y consentimiento:
+    >>   - Analizar cómo la detección de vida en videos puede afectar la privacidad de las personas.
+    >>   - Considerar la importancia de obtener el consentimiento informado de las personas que pueden ser monitoreadas o grabadas.
+    >>
+    >>   * Bias y discriminación:
+    >>     - Evaluar el riesgo de sesgos y discriminación en la detección de vida en videos, especialmente en relación con características como la edad, el género, la raza, etc.
+    >>     - Implementar medidas para mitigar y detectar posibles sesgos en el sistema.
+    >>
+    >>   * Transparencia y explicabilidad:
+    >>     - Diseñar el sistema de detección de vida de manera que sea transparente y comprensible para los usuarios y las partes interesadas.
+    >>     - Proporcionar explicaciones claras sobre cómo funciona el sistema y cómo se toman las decisiones de detección.
+    >>
+    >>   * Cumplimiento normativo:
+    >>     - Asegurarse de que el sistema cumpla con las regulaciones y leyes pertinentes, como el Reglamento General de Protección de Datos (GDPR) en Europa o leyes locales de privacidad en otras regiones.
+    >>     - Colaborar con expertos legales para garantizar el cumplimiento normativo en todas las etapas del desarrollo y la implementación.
+    >>
+    >>   * Responsabilidad y rendición de cuentas:
+    >>     - Establecer mecanismos para la rendición de cuentas en caso de mal uso o decisiones erróneas del sistema de detección de vida en videos.
+    >>     - Definir claramente las responsabilidades de todas las partes involucradas en el desarrollo, implementación y uso del sistema.
+    >>
+    >> ¿Hay alguna otra viñeta que te gustaría ampliar?
+    >>
+    >
+    >> **Prompt:** Ahora, que entiendes la dinámica principal, vamos a acotar ciertas acciones. Cuando yo escriba M 1.1 quiero decir Muestra el esquema 1.1 E 2.1 quiero decir expande el esquema 2.1 S 1.2.1 Quiero decir escribe 2 párrafos sobre el esquema 1.2.1
+    >>
+    >> Confirmame si has entendido las indicaciones, y preguntame cuál es la primer indicación que deseo que hagas.
+    >>
+    >> **GPT:** Entendido, confirmo las indicaciones. ¿Cuál es la primera indicación que deseas que realice?
+    >>
+    > 
+    >> **Prompt:** M3
+    >>
+    >> **GPT:** Entendido. Aquí tienes el esquema 3:
+    >>
+    >> Esquema 3 - Preprocesamiento de Datos:
+    >>
+    >> * Limpiar los datos para eliminar ruido y artefactos:
+    >>   - Utilizar técnicas de filtrado para eliminar ruido y artefactos indeseados de los videos.
+    >>   - Aplicar métodos de suavizado para reducir la variabilidad y mejorar la calidad de los datos.
+    >>
+    >>   * Normalizar la resolución, el formato y otros atributos de los videos:
+    >>     - Establecer una resolución estándar para todos los videos mediante la interpolación o el reescalado.
+    >>     - Convertir los videos a un formato compatible y uniforme para facilitar el procesamiento posterior.
+    >>
+    >> ¿Qué acción deseas tomar a continuación?
+    >>
+    > 
+    >> **Prompt:** E3.2
+    >>
+    >> **GPT:** Entendido, voy a expandir la viñeta 3.2 Normalizar la resolución, el formato y otros atributos de los videos:
+    >>
+    >> Esquema Ampliado - Normalizar la resolución, el formato y otros atributos de los videos:
+    >>
+    >> * Establecer una resolución estándar para todos los videos:
+    >>   - Determinar la resolución óptima para el procesamiento de los videos, considerando la capacidad de cómputo disponible y los requisitos de precisión.
+    >>   - Implementar técnicas de reescalado para ajustar la resolución de los videos a la resolución estándar definida
+    
